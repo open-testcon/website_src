@@ -1,0 +1,17 @@
+<div class="section white center">
+  <div class="row container ">
+    <h2 class="header">Tickets</h2>
+    <a href="" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+      <i class="material-icons left">money</i>
+      BUY
+    </a>
+  </div>
+
+  <div class="row container center">
+    {{ range .Site.Params.ticket }}
+    <div class="col s2">
+      {{ partial "ticket" . }}
+    </div>
+    {{ end }}
+  </div>
+</div>

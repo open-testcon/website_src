@@ -75,3 +75,19 @@ enableMissingTranslationPlaceholders = true
     company = "Devops, Redhat"
     location = "Beijing, China"
     avatar = "/img/avatar/demo02.jpg"
+
+
+  [[params.ticket]]
+    price = "100 $"
+    desc = "20 places"
+    status = "SOLD OUT"
+
+  [[params.ticket]]
+    price = "500 $"
+    desc = "100 places"
+    status = "SOLD OUT"
+
+  [[params.ticket]]
+    price = "800 $"
+    desc = "500 places"
+    status = "SOLD OUT"
