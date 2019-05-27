@@ -49,3 +49,29 @@ enableMissingTranslationPlaceholders = true
 [params.meeting]
   start_date = "October 3rd, 2020"
   location = "Raycom North Tower, Beijing China"
+
+[params]
+
+  [[params.speaker]]
+    name = "Wei Shi"
+    company = "Virt, Redhat"
+    location = "Beijing, China"
+    avatar = "/img/avatar/demo02.jpg"
+
+  [[params.speaker]]
+    name = "Jianwei Hou"
+    company = "Openshift, Redhat"
+    location = "Beijing, China"
+    avatar = "/img/avatar/demo02.jpg"
+
+  [[params.speaker]]
+    name = "Yaning Wang"
+    company = "RHVH, Redhat"
+    location = "Beijing, China"
+    avatar = "/img/avatar/demo02.jpg"
+
+  [[params.speaker]]
+    name = "John Doe"
+    company = "Devops, Redhat"
+    location = "Beijing, China"
+    avatar = "/img/avatar/demo02.jpg"
