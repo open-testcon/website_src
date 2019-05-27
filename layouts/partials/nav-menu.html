@@ -1,0 +1,27 @@
+<div class="navbar-fixed">
+  <nav class="red darken-4 ">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i
+            class="material-icons white-text">menu</i></a>
+        <img src="/img/logos/qecamp_logo_01.png" height="44px" style="margin: 10px;" class="hide-on-med-and-down">
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          {{- $currentPage := . -}}
+          {{ range .Site.Menus.main }}
+          <li class='{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<ul class="sidenav" id="mobile-sidenav">
+  {{ range .Site.Menus.main }}
+  <li>
+    <a href="{{ .URL }}">{{ .Name }}</a>
+  </li>
+  {{ end }}
+</ul>

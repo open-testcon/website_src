@@ -1,0 +1,39 @@
+{{ $start_date := .Site.Params.meeting.start_date }}
+{{ $location := .Site.Params.meeting.location }}
+<div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br>
+
+      <div class="row center" style="margin-top: 150px;">
+        <img src="/img/logos/qecamp_logo_02.png" alt="">
+      </div>
+      <div class="row center">
+        <h1 class="header col s12" style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">
+          <strong>{{ $start_date }}</strong>
+        </h1>
+        <br>
+        <h4 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px">
+          {{ $location }}
+        </h4>
+      </div>
+
+
+      <div class="row center">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+          <i class="material-icons left">star</i>
+          BECAME SPONSOR
+        </a>
+      </div>
+
+      <div class="row center">
+        <a href="" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+          <i class="material-icons left">mic</i>
+          SUBMIT A PRESENTATION
+        </a>
+      </div>
+      <br><br>
+    </div>
+  </div>
+  <div class="parallax"><img src="/img/background/bg01.jpg" alt="Unsplashed background img 1"></div>
+</div>

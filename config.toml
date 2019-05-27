@@ -1,0 +1,51 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "qe-camp 2019"
+
+enableEmoji = true
+enableMissingTranslationPlaceholders = true
+
+
+# 导航栏的定义，已经分页面的名称
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "HOME"
+    title = "home section"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "speakers"
+    name = "SPEAKERS"
+    title = "speaker section"
+    url = "/speakers/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "updates"
+    name = "UPDATES"
+    title = "updates section"
+    url = "/updates/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "schedule"
+    name = "SCHEDULE"
+    title = "schedule section"
+    url = "/schedule/"
+    weight = 40
+
+  [[menu.main]]
+    identifier = "faqs"
+    name = "FAQS"
+    title = "fags section"
+    url = "/faqs/"
+    weight = 50
+
+
+# 自定义的参数
+[params.meeting]
+  start_date = "October 3rd, 2020"
+  location = "Raycom North Tower, Beijing China"

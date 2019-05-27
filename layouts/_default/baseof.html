@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{- $.Site.LanguageCode | default "en" -}}">
+
+{{ partial "head.html" . }}
+
+<body>
+  <header>
+    {{ partial "nav-menu.html" . }}
+  </header>
+
+  <main>
+    {{ block "main" . }}
+    {{ end }}
+  </main>
+
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script src="/js/site.js"></script>
+</body>
+
+</html>
