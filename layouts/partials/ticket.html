@@ -1,5 +1,11 @@
-<div class="card-panel">
-  <h3 class="header">{{ .price }}</h3>
-  <p>{{ .desc }}</p>
-  <p>{{ .status }}</p>
+<div class="card center">
+  <div class="card-content black-text">
+    <h3 class="header">
+      <strong>{{ .price }}</strong>
+    </h3>
+    <p>{{ .desc }}</p>
+    {{ partial "blank" . }}
+    <a class="waves-effect waves-light btn disabled">{{ .status }}</a>
+  </div>
+
 </div>

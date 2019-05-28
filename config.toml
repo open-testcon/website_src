@@ -47,8 +47,16 @@ enableMissingTranslationPlaceholders = true
 
 # 自定义的参数
 [params.meeting]
+
   start_date = "October 3rd, 2020"
   location = "Raycom North Tower, Beijing China"
+
+[params.venue]
+
+  name = "Raycom Infotech Park"
+  desc = "Raycom Info Tech Park located at Zhong Guan Cun Central industrial and business zone, with a total area of 328,000 square meter. The whole park is a combination of 4 office and commercial buildings at international A grading standard and 2 hotel-and appartments, with international level management."
+  address = "No.2 KeXueYuan Nanlu,Haidian District,Beijing, China 100190"
+
 
 [params]
 

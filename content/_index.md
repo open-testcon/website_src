@@ -11,3 +11,5 @@
 {{< homepage/04-subscribe >}}
 
 {{< homepage/05-ticket >}}
+
+{{< homepage/06-location >}}

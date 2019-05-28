@@ -1,5 +1,5 @@
-<div class="section white center">
-  <div class="row container ">
+<div class="section white ">
+  <div class="row container center">
     <h2 class="header">Tickets</h2>
     <a href="" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
       <i class="material-icons left">money</i>
@@ -7,11 +7,15 @@
     </a>
   </div>
 
-  <div class="row container center">
+  {{ partial "blank" . }}
+
+  <div class="row container">
+    <div class="col s2 offset-s1"></div>
     {{ range .Site.Params.ticket }}
     <div class="col s2">
       {{ partial "ticket" . }}
     </div>
     {{ end }}
+
   </div>
 </div>
