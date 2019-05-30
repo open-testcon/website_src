@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div class="container">
+  {{ partial "blank" . }}
+
+  {{ range .Pages }}
+  <div class="card horizontal z-depth-3">
+    <div class="card-image">
+      <img src="/img/background/update-list.jpg">
+    </div>
+    <div class="card-stacked">
+      <div class="card-content">
+        <p>{{ .Date.Format "2006-01-02" }}</p>
+        <a href="{{.RelPermalink}}">
+          <h4>{{ .Title }}</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  {{ end }}
+
+  {{ partial "blank" . }}
+</div>
+{{ end }}
