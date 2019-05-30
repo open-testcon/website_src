@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "qe-camp 2019"
+title = "qe-camp 2020"
 
 enableEmoji = true
 enableMissingTranslationPlaceholders = true
@@ -86,16 +86,16 @@ enableMissingTranslationPlaceholders = true
 
 
   [[params.ticket]]
-    price = "100 $"
-    desc = "20 places"
+    price = "100 ￥"
+    desc = "total 200 places"
     status = "SOLD OUT"
 
   [[params.ticket]]
-    price = "500 $"
-    desc = "100 places"
+    price = "500 ￥"
+    desc = "total 100 places"
     status = "SOLD OUT"
 
   [[params.ticket]]
-    price = "800 $"
-    desc = "500 places"
+    price = "800 ￥"
+    desc = "total 50 places"
     status = "SOLD OUT"

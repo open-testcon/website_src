@@ -1,0 +1,75 @@
++++
++++
+
+<h1>Submit Your Topic</h1>
+
+
+<div class="card-panel z-depth-3">
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="name" type="text" class="validate">
+          <label for="name">Your Name</label>
+        </div>
+
+        <div class="input-field col s6">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" class="validate">
+          <label for="email">Your Email</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">library_books</i>
+          <input id="title" type="text" class="validate">
+          <label for="title">Topic Title</label>
+        </div>
+
+        <div class="input-field col s6">
+          <i class="material-icons prefix">text_format</i>
+          <select multiple>
+            <option value="cloud">Cloud</option>
+            <option value="container">Container</option>
+            <option value="virtualization">Virualization</option>
+          </select>
+          <label>Category</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="file-field input-field col s12">
+          <div class="btn red darken-3">
+            <span>attachments</span>
+            <input type="file" multiple>
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text" placeholder="Upload one or more files">
+          </div>
+        </div>
+      </div>
+
+      <h4 class="header"></h4>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="content" type="hidden" name="content">
+          <trix-editor input="content"></trix-editor>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12">
+          <button class="btn-large waves-effect waves-light right red darken-3 z-depth-4" type="submit"
+            name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<h1 class="header"></h1>
