@@ -99,3 +99,50 @@ enableGitInfo = true
     price = "800 ￥"
     desc = "total 50 places"
     status = "SOLD OUT"
+
+# FAQs
+
+  [[params.faqs]]
+    question = "Are the talks recorded or live-streamed?"
+    answer = "lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "General Questions"
+
+  [[params.faqs]]
+    question = "Are the talks recorded or live-streamed?"
+    answer = "lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "General Questions"
+
+  [[params.faqs]]
+    question = "Are the talks recorded or live-streamed?"
+    answer = "lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "General Questions"
+
+  [[params.faqs]]
+    question = "Where is the schedule? When will the Schedule be ready?"
+    answer = "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "Schedule/CfP Questions"
+
+  [[params.faqs]]
+    question = "Where is the schedule? When will the Schedule be ready?"
+    answer = "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "Schedule/CfP Questions"
+
+  [[params.faqs]]
+    question = "Where is the schedule? When will the Schedule be ready?"
+    answer = "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "Schedule/CfP Questions"
+
+  [[params.faqs]]
+    question = "Where is the schedule? When will the Schedule be ready?"
+    answer = "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "Schedule/CfP Questions"
+
+  [[params.faqs]]
+    question = "What is going on with trains to/from Beijing? I heard there was construction."
+    answer = "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "tick"
+
+  [[params.faqs]]
+    question = "What is going on with trains to/from Beijing? I heard there was construction."
+    answer = "loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem"
+    tag = "tick"
