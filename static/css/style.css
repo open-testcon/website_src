@@ -58,3 +58,9 @@ footer.page-footer {
 .bitem {
   display: inline;
 }
+
+.trix-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
