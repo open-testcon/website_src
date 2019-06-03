@@ -21,7 +21,13 @@
   <div class="footer-copyright red darken-4">
     <div class="container">
       © 2019 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      <a class="grey-text text-lighten-4 right" href="#!">
+        powered by hugo <strong>{{ hugo.Version }}</strong>
+        {{ with .GitInfo }}
+        rev
+        <strong>{{ .AbbreviatedHash }}</strong>
+        {{ end }}
+      </a>
     </div>
   </div>
 </footer>

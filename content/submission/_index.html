@@ -1,20 +1,27 @@
 +++
 +++
 
-<h1>Submit Your Topic</h1>
-
-
 <div class="card-panel z-depth-3">
   <div class="row">
+    <div class="hide-on-med-and-down">
+      <h2>Submit Your Topic</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="hide-on-large-only">
+      <h4>Submit Your Topic</h4>
+      <div class="divider"></div>
+    </div>
+
     <form class="col s12">
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col m6 s12">
           <i class="material-icons prefix">account_circle</i>
           <input id="name" type="text" class="validate">
           <label for="name">Your Name</label>
         </div>
 
-        <div class="input-field col s6">
+        <div class="input-field col m6 s12">
           <i class="material-icons prefix">email</i>
           <input id="email" type="email" class="validate">
           <label for="email">Your Email</label>
@@ -22,13 +29,13 @@
       </div>
 
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col m6 s12">
           <i class="material-icons prefix">library_books</i>
           <input id="title" type="text" class="validate">
           <label for="title">Topic Title</label>
         </div>
 
-        <div class="input-field col s6">
+        <div class="input-field col m6 s12">
           <i class="material-icons prefix">text_format</i>
           <select multiple>
             <option value="cloud">Cloud</option>
@@ -40,7 +47,7 @@
       </div>
 
       <div class="row">
-        <div class="file-field input-field col s12">
+        <div class="file-field input-field col m12 s12">
           <div class="btn red darken-3">
             <span>attachments</span>
             <input type="file" multiple>
