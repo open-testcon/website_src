@@ -1,32 +1,7 @@
 {{ define "main" }}
+
 <div class="container">
-  <h4 class="header">General Questions</h4>
-  <ul class="collapsible popout">
-    {{ range .Site.Params.faqs }}
-    {{ if eq .tag "General Questions" }}
-    {{ partial "qa" . }}
-    {{end}}
-    {{ end }}
-  </ul>
 
-  <h4 class="header">Schedule/CfP Questions</h4>
-  <ul class="collapsible popout">
-    {{ range .Site.Params.faqs }}
-    {{ if eq .tag "Schedule/CfP Questions" }}
-    {{ partial "qa" . }}
-    {{end}}
-    {{ end }}
-  </ul>
-
-  <h4 class="header">Travel Questions</h4>
-  <ul class="collapsible popout">
-    {{ range .Site.Params.faqs }}
-    {{ if eq .tag "tick" }}
-    {{ partial "qa" . }}
-    {{end}}
-    {{ end }}
-  </ul>
-
-  <h4></h4>
+  {{ .Content }}
 </div>
 {{ end }}
