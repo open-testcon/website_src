@@ -1,3 +1,4 @@
+{{ with $.Site.Data.homepage.data.summary }}
 <div class="container">
   <div class="section">
 
@@ -6,11 +7,9 @@
       <div class="col s12 m4">
         <div class="icon-block">
           <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-          <h5 class="center">What is QE Camp?</h5>
+          <h5 class="center">{{ .intro_q }}</h5>
 
-          <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius atque possimus nemo
-            laudantium asperiores mollitia amet eos libero ipsa assumenda sunt nihil quos officia! Accusantium sit quam
-            ad nihil.</p>
+          <p class="light">{{ .intro_a }}</p>
         </div>
       </div>
 
@@ -20,11 +19,11 @@
 
           <div class="row">
             <div class="col m12 s6">
-              <h1 class="center" style="margin: 0px">900</h1>
+              <h1 class="center" style="margin: 0px">{{ .participants }}</h1>
               <p class="center" style="margin: 0px">Participants</p>
             </div>
             <div class="col m12 s6">
-              <h1 class="center" style="margin: 0px">20</h1>
+              <h1 class="center" style="margin: 0px">{{ .sessions }}</h1>
               <p class="center" style="margin: 0px">sessions</p>
             </div>
           </div>
@@ -37,11 +36,11 @@
 
           <div class="row">
             <div class="col m12 s6">
-              <h1 class="center" style="margin: 0px">2</h1>
+              <h1 class="center" style="margin: 0px">{{ .days }}</h1>
               <p class="center" style="margin: 0px">Days</p>
             </div>
             <div class="col m12 s6">
-              <h1 class="center" style="margin: 0px">3</h1>
+              <h1 class="center" style="margin: 0px">{{ .tracks }}</h1>
               <p class="center" style="margin: 0px">Parallel Tracks</p>
             </div>
           </div>
@@ -52,3 +51,4 @@
 
   </div>
 </div>
+{{ end }}

@@ -1,3 +1,4 @@
+{{ with $.Site.Data.homepage.data.venue }}
 <div class="parallax-container valign-wrapper" style="position: relative;">
   <div class="section">
 
@@ -6,9 +7,9 @@
         <span class="card-title">
           <strong>The Venue</strong>
         </span>
-        <h5>{{ .Site.Params.venue.name }}</h5>
+        <h5>{{ .name }}</h5>
 
-        <p>{{ .Site.Params.venue.address }}</p>
+        <p>{{ .address }}</p>
 
         <a class="btn-floating btn-large waves-effect waves-light red right" style="margin-bottom: 10px">
           <i class="fas fa-map-marked"></i>
@@ -22,14 +23,15 @@
     </a>
     <div id="venue-modal" class="modal card red darken-3">
       <div class=" modal-content">
-        <h4>{{ .Site.Params.venue.name }}</h4>
-        <p>{{ .Site.Params.venue.address }}</p>
+        <h4>{{ .name }}</h4>
+        <p>{{ .address }}</p>
       </div>
       <div class="modal-footer red darken-3">
         <a href="#!" class="white-text modal-close waves-effect waves-green btn-flat">Close</a>
       </div>
     </div>
 
-    <div class="parallax"><img src="/img/background/bg04.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax"><img src="/img/background/bg04.jpg"></div>
   </div>
 </div>
+{{ end }}

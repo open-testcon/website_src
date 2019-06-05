@@ -1,26 +1,24 @@
+{{ with .Site.Data.footer.data }}
 <footer class="page-footer red darken-3">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, maxime
-          tempora, blanditiis, recusandae neque similique nesciunt officia ea animi suscipit sunt illo dolorem! Unde,
-          atque. Ab distinctio quaerat assumenda repudiandae?</p>
+        <h5 class="white-text">{{ .left_title }}</h5>
+        <p class="grey-text text-lighten-4">{{ .left_content }}</p>
       </div>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Links</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          {{ range .links }}
+          <li><a class="grey-text text-lighten-3" href="{{ .url }}">{{ .text }}</a></li>
+          {{ end }}
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright red darken-4">
     <div class="container">
-      © 2019 Copyright Text
+      {{ .copyright }}
       <a class="grey-text text-lighten-4 right" href="#!">
         powered by hugo <strong>{{ hugo.Version }}</strong>
         {{ with .GitInfo }}
@@ -31,3 +29,4 @@
     </div>
   </div>
 </footer>
+{{ end }}

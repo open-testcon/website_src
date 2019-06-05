@@ -1,8 +1,9 @@
 {{ define "main" }}
 <div class="container">
+  {{ with .Site.Data.faqs.data.faqs }}
   <h4 class="header">General Questions</h4>
   <ul class="collapsible popout">
-    {{ range .Site.Params.faqs }}
+    {{ range . }}
     {{ if eq .tag "General Questions" }}
     {{ partial "qa" . }}
     {{end}}
@@ -11,7 +12,7 @@
 
   <h4 class="header">Schedule/CfP Questions</h4>
   <ul class="collapsible popout">
-    {{ range .Site.Params.faqs }}
+    {{ range . }}
     {{ if eq .tag "Schedule/CfP Questions" }}
     {{ partial "qa" . }}
     {{end}}
@@ -20,7 +21,7 @@
 
   <h4 class="header">Travel Questions</h4>
   <ul class="collapsible popout">
-    {{ range .Site.Params.faqs }}
+    {{ range . }}
     {{ if eq .tag "tick" }}
     {{ partial "qa" . }}
     {{end}}
@@ -28,5 +29,6 @@
   </ul>
 
   <h4></h4>
+  {{ end }}
 </div>
 {{ end }}

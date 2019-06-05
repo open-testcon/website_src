@@ -1,0 +1,79 @@
+[meeting]
+
+  start_date = "October 3rd, 2020"
+  location = "Raycom North Tower, Beijing China"
+
+[summary]
+
+  intro_q = "What is QE Camp?"
+  intro_a = """Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius atque possimus nemo
+            laudantium asperiores mollitia amet eos libero ipsa assumenda sunt nihil quos officia! Accusantium sit quam
+            ad nihil."""
+  participants = 900
+  sessions = 20
+  days = 2
+  tracks = 4
+
+[video]
+
+  intro = "Watch the best momoents"
+  url = "/video/01.mp4"
+
+[[speakers]]
+  name = "Wei Shi"
+  company = "Virt, Redhat"
+  location = "Beijing, China"
+  avatar = "/img/avatar/demo02.jpg"
+
+[[speakers]]
+  name = "Jianwei Hou"
+  company = "Openshift, Redhat"
+  location = "Beijing, China"
+  avatar = "/img/avatar/demo02.jpg"
+
+[[speakers]]
+  name = "Yaning Wang"
+  company = "RHVH, Redhat"
+  location = "Beijing, China"
+  avatar = "/img/avatar/demo02.jpg"
+
+[[speakers]]
+  name = "John Doe"
+  company = "Devops, Redhat"
+  location = "Beijing, China"
+  avatar = "/img/avatar/demo02.jpg"
+
+
+[[subs]]
+  name = "Twitter"
+  url = ""
+  icon = "fab fa-twitter"
+
+[[subs]]
+  name = "Telgram"
+  url = ""
+  icon = "fab fa-telegram"
+
+
+[[tickets]]
+  price = "100 ￥"
+  desc = "total 200 places"
+  status = "SOLD OUT"
+
+[[tickets]]
+  price = "500 ￥"
+  desc = "total 100 places"
+  status = "SOLD OUT"
+
+[[tickets]]
+  price = "800 ￥"
+  desc = "total 50 places"
+  status = "SOLD OUT"
+
+
+
+[venue]
+
+  name = "Raycom Infotech Park"
+  desc = "Raycom Info Tech Park located at Zhong Guan Cun Central industrial and business zone, with a total area of 328,000 square meter. The whole park is a combination of 4 office and commercial buildings at international A grading standard and 2 hotel-and appartments, with international level management."
+  address = "No.2 KeXueYuan Nanlu,Haidian District,Beijing, China 100190"
