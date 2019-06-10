@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ $data := index $.Site.Data $.Site.Language.Lang }}
+{{ with $data.schedulel.data }}
+<div class="container">
+  <table class="centered">
+    <thead>
+      <tr>
+        <th colspan="5">
+          <h4>{{ .day1.date }}</h4>
+        </th>
+      </tr>
+      <tr>
+        <th>Date</th>
+        <th>TRENDING TECH in Testin</th>
+        <th>Testing TOOL</th>
+        <th>Testing Essentials</th>
+        <th>OPEN HYBRID CLOUD</th>
+      </tr>
+    </thead>
+  </table>
+</div>
+{{ end }}
+{{ end }}

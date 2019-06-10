@@ -1,0 +1,7 @@
+[schedule]
+
+  tracks = ["TRENDING TECH in Testin",
+  "Testing TOOL", "Testing Essentials", "OPEN HYBRID CLOUD"]
+
+  [schedule.day1]
+    date = "Day 1st, April 2nd"
