@@ -1,0 +1,85 @@
+[meeting]
+
+  start_date = "四月 2-3, 2020"
+  location = "北京亮马河饭店"
+  btn_1 = "成为赞助商"
+  btn_2 = "提交主题"
+
+[summary]
+
+  intro_q = "啥是QE-Camp?"
+  intro_a = """現在想沒得再一個，向著面前不知終極的路上，不許他們永久立存同一位置的勢力。第三天那些遠來的人們，一樣是歹命人！又有人不平地說，
+不是一件很合理得快活的事嗎？西門那賣點心的老人，地方領導人。"""
+  participants = 900
+  sessions = 20
+  days = 2
+  tracks = 4
+
+[video]
+
+  intro = "观看往年的精彩时刻"
+  url = "/video/01.mp4"
+  title = "主题演讲嘉宾"
+  btn = "提交主题"
+
+[[speakers]]
+  name = "石伟"
+  company = "虚拟化，红帽"
+  location = "北京，中国"
+  avatar = "/img/avatar/demo02.jpg"
+
+[[speakers]]
+  name = "侯建伟"
+  company = "Openshift, 红帽"
+  location = "北京，中国"
+  avatar = "/img/avatar/demo02.jpg"
+
+[[speakers]]
+  name = "李循环"
+  company = "开发, 红帽"
+  location = "北京，中国"
+  avatar = "/img/avatar/demo02.jpg"
+
+[[speakers]]
+  name = "没名儿"
+  company = "运维, 红帽"
+  location = "香港, 中国"
+  avatar = "/img/avatar/demo02.jpg"
+
+
+[sub]
+  title = "请通过下列渠道获取最新进展"
+
+[[subs]]
+  name = "推特"
+  url = ""
+  icon = "fab fa-twitter"
+
+[[subs]]
+  name = "电报群"
+  url = ""
+  icon = "fab fa-telegram"
+
+
+[[tickets]]
+  price = "100 ￥"
+  desc = "总共２００位"
+  status = "售罄"
+
+[[tickets]]
+  price = "500 ￥"
+  desc = "总共１０００位"
+  status = "售罄"
+
+[[tickets]]
+  price = "800 ￥"
+  desc = "总共５０位"
+  status = "售罄"
+
+
+
+[venue]
+
+  name = "亮马河会议中心"
+  desc = "亮马河会议中心拥有800平方米的万黛大厅、1100平方米的紫金大厅以及梅花厅、荷花厅等十二个多功能厅"
+  address = "中国北京市朝阳区东三环北路8号 电话：(86-10)65906688"

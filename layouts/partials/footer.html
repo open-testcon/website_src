@@ -1,4 +1,5 @@
-{{ with .Site.Data.footer.data }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ with $data.footer.data }}
 <footer class="page-footer red darken-3">
   <div class="container">
     <div class="row">

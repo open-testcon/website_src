@@ -1,4 +1,5 @@
-{{ with $.Site.Data.homepage.data.meeting }}
+{{ $data := index $.Site.Data $.Site.Language.Lang }}
+{{ with $data.homepage.data.meeting }}
 <div id="index-banner" class="parallax-container">
   <div class="section no-pad-bot">
     <div class="container">
@@ -11,12 +12,10 @@
         <h1 style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">
           <strong>{{ .start_date }}</strong>
         </h1>
-
         <h4 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px">
           {{ .location }}
         </h4>
       </div>
-
       <div class="row center hide-on-med-and-up">
         <div class="col s12">
           <h3 class="header" style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">
@@ -34,14 +33,14 @@
         <div class="row center">
           <a href="" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
             <i class="material-icons left">star</i>
-            BECAME SPONSOR &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            {{ .btn_1 }}
           </a>
         </div>
 
         <div class="row center">
           <a href="/submission/" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
             <i class="material-icons left">mic</i>
-            SUBMIT A PRESENTATION
+            {{ .btn_2 }}
           </a>
         </div>
       </div>

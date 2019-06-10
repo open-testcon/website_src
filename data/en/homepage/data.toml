@@ -2,6 +2,8 @@
 
   start_date = "April 2-3, 2020"
   location = "Landmark Towers Hotel, Beijing"
+  btn_1 = "BECAME SPONSOR"
+  btn_2 = "SUBMIT PRESENTATION"
 
 [summary]
 
@@ -18,6 +20,8 @@
 
   intro = "Watch the best momoents"
   url = "/video/01.mp4"
+  title = "Featured Speakers"
+  btn = "SUBMIT PRESENTATION"
 
 [[speakers]]
   name = "Wei Shi"
@@ -43,6 +47,9 @@
   location = "Beijing, China"
   avatar = "/img/avatar/demo02.jpg"
 
+
+[sub]
+  title = "Get notified about the important updates"
 
 [[subs]]
   name = "Twitter"
@@ -74,6 +81,6 @@
 
 [venue]
 
-  name = "Raycom Infotech Park"
-  desc = "Raycom Info Tech Park located at Zhong Guan Cun Central industrial and business zone, with a total area of 328,000 square meter. The whole park is a combination of 4 office and commercial buildings at international A grading standard and 2 hotel-and appartments, with international level management."
-  address = "No.2 KeXueYuan Nanlu,Haidian District,Beijing, China 100190"
+  name = "Landmark Convention Center"
+  desc = "The Landmark Convention Center comprised of a spectacular 800 square meters Vanda Grand Hall, a grand 1100 square meters Bauhinia Grand Hall as well as Plum Blossom Room, The Lotus Room etc., total twelve such lovely multifunction rooms."
+  address = "No. 8, North Dongsanhuan Road,Chaoyang District, Beijing, China Tel:(86-10)65906688"

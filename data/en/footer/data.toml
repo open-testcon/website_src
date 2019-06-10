@@ -1,0 +1,22 @@
+left_title = "Footer Title"
+left_content = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, maxime tempora, blanditiis, recusandae neque similique nesciunt officia ea animi suscipit sunt illo dolorem! Unde, atque. Ab distinctio quaerat assumenda repudiandae?"""
+copyright = "© 2019 Copyright Text"
+
+
+[[links]]
+text = "link 1"
+url = ""
+
+[[links]]
+text = "link 2"
+url = ""
+
+[[links]]
+text = "link 3"
+url = ""
+
+[[links]]
+text = "link 4"
+url = ""
+
+

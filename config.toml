@@ -1,45 +1,92 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
 title = "qe-camp 2020"
 
 enableEmoji = true
 enableMissingTranslationPlaceholders = true
 enableGitInfo = true
 
-# 导航栏的定义，已经分页面的名称
-[menu]
+DefaultContentLanguage = "en"
 
-  [[menu.main]]
+[Taxonomies]
+  tag = "tags"
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 3
+
+  [[languages.en.menu.main]]
     identifier = "home"
     name = "HOME"
     title = "home section"
     url = "/"
     weight = 10
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
     identifier = "speakers"
     name = "SPEAKERS"
     title = "speaker section"
     url = "/speakers/"
     weight = 20
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
     identifier = "updates"
     name = "UPDATES"
     title = "updates section"
     url = "/updates/"
     weight = 30
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
     identifier = "schedule"
     name = "SCHEDULE"
     title = "schedule section"
     url = "/schedule/"
     weight = 40
 
-  [[menu.main]]
+  [[languages.en.menu.main]]
     identifier = "faqs"
     name = "FAQS"
     title = "fags section"
     url = "/faqs/"
+    weight = 50
+
+
+  [languages.cn]
+    languageName = "Chinese"
+    weight = 2
+
+  [[languages.cn.menu.main]]
+    identifier = "home"
+    name = "主页"
+    title = "home section"
+    url = "/cn/"
+    weight = 10
+
+  [[languages.cn.menu.main]]
+    identifier = "speakers"
+    name = "演讲人"
+    title = "speaker section"
+    url = "/cn/speakers/"
+    weight = 20
+
+  [[languages.cn.menu.main]]
+    identifier = "updates"
+    name = "更新"
+    title = "updates section"
+    url = "/cn/updates/"
+    weight = 30
+
+  [[languages.cn.menu.main]]
+    identifier = "schedule"
+    name = "日程"
+    title = "schedule section"
+    url = "/cn/schedule/"
+    weight = 40
+
+  [[languages.cn.menu.main]]
+    identifier = "faqs"
+    name = "问答"
+    title = "faqs section"
+    url = "/cn/faqs/"
     weight = 50

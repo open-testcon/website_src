@@ -12,7 +12,13 @@
             <a href="{{ .URL }}">{{ .Name }}</a>
           </li>
           {{ end }}
+          {{ if eq .Site.Language.Lang "en" }}
+          <li><a href="/cn">中文</a></li>
+          {{ else }}
+          <li><a href="/">English</a></li>
+          {{ end }}
         </ul>
+
       </div>
     </div>
   </nav>
@@ -24,4 +30,6 @@
     <a href="{{ .URL }}">{{ .Name }}</a>
   </li>
   {{ end }}
+  <li><a href="/">en</a></li>
+  <li><a href="/cn">cn</a></li>
 </ul>

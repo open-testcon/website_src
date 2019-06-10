@@ -1,4 +1,5 @@
-{{ with $.Site.Data.homepage.data.summary }}
+{{ $data := index $.Site.Data $.Site.Language.Lang }}
+{{ with $data.homepage.data.summary }}
 <div class="container">
   <div class="section">
 
@@ -20,11 +21,11 @@
           <div class="row">
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .participants }}</h1>
-              <p class="center" style="margin: 0px">Participants</p>
+              <p class="center" style="margin: 0px">{{ i18n "participants" }}</p>
             </div>
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .sessions }}</h1>
-              <p class="center" style="margin: 0px">sessions</p>
+              <p class="center" style="margin: 0px">{{ i18n "sessions" }}</p>
             </div>
           </div>
         </div>
@@ -37,11 +38,11 @@
           <div class="row">
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .days }}</h1>
-              <p class="center" style="margin: 0px">Days</p>
+              <p class="center" style="margin: 0px">{{ i18n "days" }}</p>
             </div>
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .tracks }}</h1>
-              <p class="center" style="margin: 0px">Parallel Tracks</p>
+              <p class="center" style="margin: 0px">{{ i18n "tracks" }}</p>
             </div>
           </div>
 

@@ -1,8 +1,11 @@
-{{ with $.Site.Data.homepage.data.subs }}
+{{ $data := index $.Site.Data $.Site.Language.Lang }}
+{{ with $data.homepage.data.subs }}
 <div class="section red darken-3">
   <div class="row container center">
-    <h3 class="header white-text hide-on-med-and-down">Get notified about the important updates</h3>
-    <h4 class="header white-text hide-on-med-and-up">Get notified about the important updates</h4>
+    {{ with $data.homepage.data.sub }}
+    <h3 class="header white-text hide-on-med-and-down">{{ .title }}</h3>
+    <h4 class="header white-text hide-on-med-and-up">{{ .title }}</h4>
+    {{ end }}
   </div>
   <div class="row center">
     {{ range . }}
