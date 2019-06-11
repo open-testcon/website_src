@@ -1,0 +1,10 @@
+[schedule]
+
+  tracks = ["时间", "测试领域兴起的技术",
+  "测试工具", "测试要点", "开源混合云"]
+
+  [schedule.day1]
+    date = "第一天 - April 2"
+
+  [schedule.day2]
+    date = "第二天 - April 3"
