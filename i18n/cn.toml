@@ -9,3 +9,6 @@ other = "演讲"
 
 [tracks]
 other = "平行会场"
+
+[venue]
+other = "会议地点"
