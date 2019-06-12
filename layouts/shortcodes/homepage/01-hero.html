@@ -4,6 +4,7 @@
   <div class="section no-pad-bot">
     <div class="container">
 
+      {{/*  for pc  */}}
       <div class="row center hide-on-med-and-down" style="margin-top: 150px;">
         <img src="/img/logos/qecamp_logo_02.png" class="responsive-img">
       </div>
@@ -16,19 +17,22 @@
           {{ .location }}
         </h4>
       </div>
+
+      {{/*  for mobile  */}}
       <div class="row center hide-on-med-and-up">
         <div class="col s12">
-          <h3 class="header" style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">
+          <h3 class="header" style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBlack">
             <strong>{{ .start_date }}</strong>
           </h3>
 
-          <h5 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px">
+          <h5 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px" class="rhDisplayBold">
             {{ .location }}
           </h5>
         </div>
       </div>
 
 
+      {{/*  for pc  */}}
       <div class="hide-on-med-and-down">
         <div class="row center">
           <a href="" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
@@ -46,9 +50,11 @@
         </div>
       </div>
 
+      {{/*  for mobile  */}}
       <div class="hide-on-med-and-up">
         <div class="row center">
-          <a href="/submission/" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+          <a href="/submission/" id="download-button"
+            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
             <i class="material-icons left">mic</i>
             {{ .btn_2 }}
           </a>

@@ -4,7 +4,7 @@
 
 +++
 
-### General Questions
+<h3 class="rhTextBold">General Questions</h3>
 
 ---
 
@@ -20,7 +20,7 @@
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, maxime tempora, blanditiis, recusandae neque similique nesciunt officia ea animi suscipit sunt illo dolorem! Unde, atque. Ab distinctio quaerat assumenda repudiandae?
 
-### Schedule/CfP Questions
+<h3 class="rhTextBold">Schedule/CfP Questions</h3>
 
 ---
 
@@ -32,7 +32,7 @@
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, maxime tempora, blanditiis, recusandae neque similique nesciunt officia ea animi suscipit sunt illo dolorem! Unde, atque. Ab distinctio quaerat assumenda repudiandae?
 
-### Travel
+<h3 class="rhTextBold">Travel</h3>
 
 ---
 
