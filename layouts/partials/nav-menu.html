@@ -9,7 +9,7 @@
           {{- $currentPage := . -}}
           {{ range .Site.Menus.main }}
           <li class='{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}'>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL }}" class="rhTextBold">{{ .Name }}</a>
           </li>
           {{ end }}
           {{ if eq .Site.Language.Lang "en" }}
@@ -22,7 +22,6 @@
           <li><a href="/" style="font-size: 1.5em">🇺🇸</a></li>
           {{ end }}
         </ul>
-
       </div>
     </div>
   </nav>

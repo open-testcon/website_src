@@ -4,7 +4,8 @@
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-        <h1 class="header col s12 hide-on-med-and-down" style="text-shadow: 5px 5px 15px black">{{ .video.intro }}
+        <h1 class="header col s12 hide-on-med-and-down rhDisplayBlack" style="text-shadow: 5px 5px 15px black">
+          {{ .video.intro }}
         </h1>
 
         <video class="responsive-video" controls width="80%">
@@ -22,12 +23,13 @@
   <div class="section">
     <div class="row">
       <div class="col s12 center">
-        <h1 class="header col s12 hide-on-med-and-down">{{ .video.title }}</h1>
-        <h4 class="header col s12 hide-on-med-and-up">{{ .video.title }}</h4>
+        <h1 class="header col s12 hide-on-med-and-down rhDisplayBlack">{{ .video.title }}</h1>
+        <h4 class="header col s12 hide-on-med-and-up rhDisplayBlack">{{ .video.title }}</h4>
 
         <h4>&nbsp;</h4>
 
-        <a href="/submission/" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+        <a href="/submission/" id="download-button"
+          class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
           <i class="material-icons left">mic</i>
           {{ .video.btn }}
         </a>
