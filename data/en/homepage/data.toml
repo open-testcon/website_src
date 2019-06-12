@@ -20,6 +20,8 @@
 
   intro = "Watch the best momoents"
   url = "/video/01.mp4"
+
+[speaker]
   title = "Featured Speakers"
   btn = "SUBMIT PRESENTATION"
 

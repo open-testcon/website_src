@@ -19,6 +19,9 @@
 
   intro = "观看往年的精彩时刻"
   url = "/video/01.mp4"
+
+
+[speaker]
   title = "主题演讲嘉宾"
   btn = "提交主题"
 

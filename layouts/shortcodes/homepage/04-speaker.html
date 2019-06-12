@@ -1,0 +1,30 @@
+{{ $data := index $.Site.Data $.Site.Language.Lang }}
+{{ with $data.homepage.data }}
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col s12 center">
+        <h1 class="header col s12 hide-on-med-and-down rhDisplayBlack">{{ .speaker.title }}</h1>
+        <h4 class="header col s12 hide-on-med-and-up rhDisplayBlack">{{ .speaker.title }}</h4>
+
+        <h4>&nbsp;</h4>
+
+        <a href="/submission/" id="download-button"
+          class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
+          <i class="material-icons left">mic</i>
+          {{ .speaker.btn }}
+        </a>
+
+        <h4>&nbsp;</h4>
+
+        <div class="row"></div>
+        {{ range .speakers }}
+        <div class="col m3 s6">
+          {{ partial "speaker" . }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

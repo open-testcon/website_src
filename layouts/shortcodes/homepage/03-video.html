@@ -1,13 +1,12 @@
 {{ $data := index $.Site.Data $.Site.Language.Lang }}
 {{ with $data.homepage.data }}
-<div class="parallax-container valign-wrapper">
+<div class="parallax-container valign-wrapper hide-on-med-and-down">
   <div class="section no-pad-bot">
     <div class="container">
       <div class="row center">
-        <h1 class="header col s12 hide-on-med-and-down rhDisplayBlack" style="text-shadow: 5px 5px 15px black">
+        <h1 class="header col s12 rhDisplayBlack" style="text-shadow: 5px 5px 15px black">
           {{ .video.intro }}
         </h1>
-
         <video class="responsive-video" controls width="80%">
           <source src="{{ .video.url }}" type="video/mp4">
         </video>
@@ -16,34 +15,20 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="/img/background/bg02.png" alt="Unsplashed background img 2"></div>
+  <div class="parallax"><img src="/img/background/bg02.png"></div>
 </div>
 
-<div class="container">
-  <div class="section">
+<div class="parallax-container valign-wrapper hide-on-large-only">
+  <div class="container">
+    <div class="row center">
+      <h4 class="rhDisplayBlack" style="text-shadow: 5px 5px 15px black; margin-bottom: 10px">{{ .video.intro }}</h4>
+    </div>
     <div class="row">
-      <div class="col s12 center">
-        <h1 class="header col s12 hide-on-med-and-down rhDisplayBlack">{{ .video.title }}</h1>
-        <h4 class="header col s12 hide-on-med-and-up rhDisplayBlack">{{ .video.title }}</h4>
-
-        <h4>&nbsp;</h4>
-
-        <a href="/submission/" id="download-button"
-          class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
-          <i class="material-icons left">mic</i>
-          {{ .video.btn }}
-        </a>
-
-        <h4>&nbsp;</h4>
-
-        <div class="row"></div>
-        {{ range .speakers }}
-        <div class="col m3 s6">
-          {{ partial "speaker" . }}
-        </div>
-        {{ end }}
-      </div>
+      <video class="responsive-video" controls>
+        <source src="{{ .video.url }}" type="video/mp4">
+      </video>
     </div>
   </div>
+  <div class="parallax"><img src="/img/background/bg02.png"></div>
 </div>
 {{ end }}
