@@ -4,7 +4,11 @@
       <div class="nav-wrapper">
         <a href="#" data-target="mobile-sidenav" class="sidenav-trigger"><i
             class="material-icons white-text">menu</i></a>
-        <img src="/img/logos/logo.svg" height="44px" style="margin: 10px;" class="hide-on-med-and-down">
+
+        <a href="/" class="brand-logo center hide-on-large-only">
+          <img src="/img/logos/logo.svg" height="24px" style="margin: 18px;">
+        </a>
+        <a href="/"><img src="/img/logos/logo.svg" height="44px" style="margin: 10px;" class="hide-on-med-and-down"></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           {{- $currentPage := . -}}
           {{ range .Site.Menus.main }}
@@ -13,11 +17,7 @@
           </li>
           {{ end }}
           {{ if eq .Site.Language.Lang "en" }}
-          <li>
-            <a href="/cn" style="font-size: 1.5em">
-              🇨🇳
-            </a>
-          </li>
+          <li><a href="/cn" style="font-size: 1.5em">🇨🇳</a></li>
           {{ else }}
           <li><a href="/" style="font-size: 1.5em">🇺🇸</a></li>
           {{ end }}
