@@ -33,7 +33,6 @@
       <div class="col s12 m4">
         <div class="icon-block">
           <h2 class="center brown-text"><i class="material-icons">date_range</i></h2>
-
           <div class="row">
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .days }}</h1>
@@ -41,14 +40,17 @@
             </div>
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .tracks }}</h1>
-              <p class="center rhTextBold" style="margin: 0px">{{ i18n "tracks" }}</p>
+              <p class="center rhTextBold" style="margin: 0px">
+                <a class="waves-effect waves-light btn-small red z-depth-4 modal-trigger" href="#tracks_modal">
+                  {{ i18n "tracks" }}
+                </a>
+              </p>
+              {{ partial "tracks_modal" . }}
             </div>
           </div>
-
         </div>
       </div>
     </div>
-
   </div>
 </div>
 {{ end }}

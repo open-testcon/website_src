@@ -1,22 +1,23 @@
-left_title = "Footer Title"
-left_content = """Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, maxime tempora, blanditiis, recusandae neque similique nesciunt officia ea animi suscipit sunt illo dolorem! Unde, atque. Ab distinctio quaerat assumenda repudiandae?"""
-copyright = "© 2019 Copyright Text"
+left_title = "EVENT IS BROUGHT TO YOU BY"
+left_content = """
+"""
+copyright = "Copyright ©2019 Red Hat, Inc."
 
 
 [[links]]
-text = "link 1"
+text = "Redhat"
+url = "https://www.redhat.com/"
+
+[[links]]
+text = "Openshift"
 url = ""
 
 [[links]]
-text = "link 2"
+text = "RHV"
 url = ""
 
 [[links]]
-text = "link 3"
-url = ""
-
-[[links]]
-text = "link 4"
+text = "RHEL"
 url = ""
 
 

@@ -7,10 +7,12 @@
 
 [summary]
 
-  intro_q = "What is QE Camp?"
-  intro_a = """Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, eius atque possimus nemo
-            laudantium asperiores mollitia amet eos libero ipsa assumenda sunt nihil quos officia! Accusantium sit quam
-            ad nihil."""
+  intro_q = "What is XXXXXXXX?"
+  intro_a = """
+XXXXXXXX 2019 is the annual XXXXXXXX Conference organized by Red Hat in Beijng.
+It is meant to provide a platform to the local FOSS community participants to come together and engage in knowledge sharing through technical talks,
+workshops, panel discussions, hackathon and such activities.
+  """
   participants = 900
   sessions = 20
   days = 2
