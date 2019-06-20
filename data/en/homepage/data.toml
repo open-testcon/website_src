@@ -78,15 +78,15 @@ and are prepared to enforce these.</p>"""
   avatar = "/img/avatar/demo02.jpg"
 
 [[speakers]]
-  name = "Jianwei Hou"
+  name = "Jianqiang Hou"
   company = "Openshift, Redhat"
   location = "Beijing, China"
   avatar = "/img/avatar/demo02.jpg"
 
 [[speakers]]
-  name = "Yaning Wang"
-  company = "RHVH, Redhat"
-  location = "Beijing, China"
+  name = "Jaime Lannister"
+  company = "Kingsguard"
+  location = "King's Landing, Westeros"
   avatar = "/img/avatar/demo02.jpg"
 
 [[speakers]]
