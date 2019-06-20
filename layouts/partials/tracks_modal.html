@@ -3,10 +3,14 @@
     <div class="modal-content">
       <div class="row">
         {{ range . }}
-        <div class="col s3">
+        <div class="col l3 s12">
           <h6 class="rhDisplayBold">{{ .name | upper }}</h6>
           <div class="divider"></div>
-          {{ .intro | markdownify }}
+          <ul>
+            {{ range .intro }}
+            <li style="list-style-type: square">{{ . }}</li>
+            {{ end }}
+          </ul>
         </div>
         {{ end }}
       </div>

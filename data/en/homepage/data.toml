@@ -15,7 +15,7 @@ workshops, panel discussions, hackathon and such activities.</p>
 
 <p class="rhTextMedium" style="line-height: normal;">
 We are committed to fostering an open and welcoming environment at our conference.
-We are setting expectations for inclusive behavior through our <a href="/updates/2019-06-20">code of conduct</a> and <a href="/updates/2019-06-19">media policies</a>,
+We are setting expectations for inclusive behavior through our <a href="/updates/2019-06-20">Code Of Conduct</a> and <a href="/updates/2019-06-19">Media Policies</a>,
 and are prepared to enforce these.</p>"""
   participants = 900
   sessions = 20
@@ -24,40 +24,42 @@ and are prepared to enforce these.</p>"""
 
   [[summary.track]]
     name = "Trending Tech In Testing"
-    intro = """
-- ■ Artificial Intelligence
-- ■ Machine Learning
-- ■ BlockChain
-- ■ IoT
-- ■ Mobile"""
+    intro = [
+"Artificial Intelligence",
+"Machine Learning",
+"BlockChain",
+"IoT",
+"Mobile"]
 
   [[summary.track]]
     name = "Testing TOOL"
-    intro = """
-- ■ Container Tooling, CI/CD, DevOps, Code Editors Cloud native IDE, CLI, Local Development for Containers
-- ■ Language Runtime, Debugging/Tracing, QE, Open Automation Infrastructures, Testing frameworks
-- ■ Products Integration testing, Testing Microservices and Complex Environments
-- ■ Performance testing tools, Agile testing methods"""
+    intro = [
+"Container Tooling, CI/CD, DevOps, Code Editors Cloud native IDE, CLI, Local Development for Containers",
+"Language Runtime, Debugging/Tracing, QE, Open Automation Infrastructures, Testing frameworks",
+"Products Integration testing, Testing Microservices and Complex Environments",
+"Performance testing tools, Agile testing methods",
+    ]
 
   [[summary.track]]
     name = "Testing Essentials"
-    intro = """
-- ■ Products Integration testing
-- ■ Testing Microservices and Complex Environments
-- ■ Testing Methodologies, Test Metrics, Test Management, Test Automation, Test Techniques
-- ■ Performance Testing, Agile Testing, Career in Testing, Best Practices in Testing
-- ■ Testing culture and leadership"""
+    intro = [
+"Products Integration testing",
+"Testing Microservices and Complex Environments",
+"Testing Methodologies, Test Metrics, Test Management, Test Automation, Test Techniques",
+"Performance Testing, Agile Testing, Career in Testing, Best Practices in Testing",
+"Testing culture and leadership"
+    ]
 
   [[summary.track]]
     name = "OPEN HYBRID CLOUD"
-    intro = """
-- ■ Multi-Cloud, Automation, OpenStack, Kubernetes, Serverless, Microservices, Containers
-- ■ OpenShift/ PaaS, Hybrid Cloud Management, Operators, CNI, Virtualization, Kernel, Service Mesh)
-- ■ Automation and Testing Tools (Ansible, Ceph, Puppet, Salt, pytest, RobotFramework, TestSuit etc)
-- ■ STORAGE AND NETWORKING Testing which can include (Cloud Native Storage, Software Defined Storage, Storage Management
-- ■ Distributed File System, Datastores, Big Data
-- ■ NFV/ VNF, DPDK, ODL, Software Defined Networking
-"""
+    intro = [
+"Multi-Cloud, Automation, OpenStack, Kubernetes, Serverless, Microservices, Containers",
+"OpenShift/ PaaS, Hybrid Cloud Management, Operators, CNI, Virtualization, Kernel, Service Mesh)",
+"Automation and Testing Tools (Ansible, Ceph, Puppet, Salt, pytest, RobotFramework, TestSuit etc)",
+"STORAGE AND NETWORKING Testing which can include (Cloud Native Storage, Software Defined Storage, Storage Management",
+"Distributed File System, Datastores, Big Data",
+"NFV/ VNF, DPDK, ODL, Software Defined Networking",
+    ]
 
 
 [video]
