@@ -4,6 +4,7 @@ title = "qe-camp 2020"
 enableEmoji = true
 enableMissingTranslationPlaceholders = true
 enableGitInfo = true
+disqusShortname = "alleleer"
 
 DefaultContentLanguage = "en"
 

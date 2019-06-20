@@ -8,8 +8,7 @@
         <div class="icon-block">
           <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
           <h5 class="center rhDisplayBlack">{{ .intro_q }}</h5>
-
-          <p class="light rhTextRegular">{{ .intro_a }}</p>
+          {{ .intro_a | safeHTML }}
         </div>
       </div>
 
@@ -21,6 +20,9 @@
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .participants }}</h1>
               <p class="center rhTextBold" style="margin: 0px">{{ i18n "participants" }}</p>
+            </div>
+            <div class="col m12 s6">
+              <h1></h1>
             </div>
             <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .sessions }}</h1>
@@ -39,13 +41,16 @@
               <p class="center rhTextBold" style="margin: 0px">{{ i18n "days" }}</p>
             </div>
             <div class="col m12 s6">
+              <h1></h1>
+            </div>
+            <div class="col m12 s6">
               <h1 class="center" style="margin: 0px">{{ .tracks }}</h1>
               <p class="center rhTextBold" style="margin: 0px">
                 <a class="waves-effect waves-light btn-small red z-depth-4 modal-trigger pulse" href="#tracks_modal">
                   {{ i18n "tracks" }}
                 </a>
               </p>
-              {{ partial "tracks_modal" . }}
+              {{ partial "tracks_modal" .track }}
             </div>
           </div>
         </div>

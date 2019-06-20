@@ -1,9 +1,15 @@
 <div id="tracks_modal" class="modal bottom-sheet">
-  <div class="modal-content">
-    <h4>Modal Header</h4>
-    <p>A bunch of text</p>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+  <div class="container">
+    <div class="modal-content">
+      <div class="row">
+        {{ range . }}
+        <div class="col s3">
+          <h6 class="rhDisplayBold">{{ .name | upper }}</h6>
+          <div class="divider"></div>
+          {{ .intro | markdownify }}
+        </div>
+        {{ end }}
+      </div>
+    </div>
   </div>
 </div>
