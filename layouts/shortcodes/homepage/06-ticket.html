@@ -1,11 +1,11 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.homepage.data.tickets }}
+{{ with $data.homepage.data.ticket }}
 <div class="section white ">
   <div class="row container center">
-    <h2 class="header rhDisplayBlack">Tickets</h2>
-    <a href="" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+    <h2 class="header rhDisplayBlack">{{ .name }}</h2>
+    <a href="{{ .url }}" class="btn-large waves-effect waves-light red darken-2 z-depth-4" target="_blank">
       <i class="material-icons left">money</i>
-      BUY
+      {{ .action }}
     </a>
   </div>
 
@@ -13,7 +13,7 @@
 
   <div class="row container hide-on-med-and-down">
     <div class="col l2 offset-l1"></div>
-    {{ range . }}
+    {{ range .tickets }}
     <div class="col l2">
       {{ partial "ticket" . }}
     </div>
@@ -21,7 +21,7 @@
   </div>
 
   <div class="row container hide-on-large-only">
-    {{ range . }}
+    {{ range .tickets }}
     <div class="col m4 s6">
       {{ partial "ticket" . }}
     </div>

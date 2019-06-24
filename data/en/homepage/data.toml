@@ -1,23 +1,22 @@
 [meeting]
 
-  start_date = "April 2-3, 2020"
-  location = "Landmark Towers Hotel, Beijing"
+  start_date = "March 30-31, 2020"
+  location = "Landmark Towers Convention Centre, Beijing"
   btn_1 = "BECAME SPONSOR"
   btn_2 = "SUBMIT PRESENTATION"
+  cfp_url = "http://cfp-mysql-qecamp-main.6923.rh-us-east-1.openshiftapps.com/"
 
 [summary]
 
-  intro_q = "What is XXXXXXXX?"
+  intro_q = "What is OpenTestConf?"
   intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-XXXXXXXX 2019 is the annual XXXXXXXX Conference organized by Red Hat in Beijng.
-It is meant to provide a platform to the local FOSS community participants to come together and engage in knowledge sharing through technical talks,
-workshops, panel discussions, hackathon and such activities.</p>
-
+OpenTestConf 2020 is the annual Conference organized by Red Hat in Beijng.
+</p>
 <p class="rhTextMedium" style="line-height: normal;">
 We are committed to fostering an open and welcoming environment at our conference.
 We are setting expectations for inclusive behavior through our <a href="/updates/2019-06-20">Code Of Conduct</a> and <a href="/updates/2019-06-19">Media Policies</a>,
 and are prepared to enforce these.</p>"""
-  participants = 900
+  participants = 300
   sessions = 20
   days = 2
   tracks = 4
@@ -109,21 +108,25 @@ and are prepared to enforce these.</p>"""
   url = ""
   icon = "fab fa-telegram"
 
+[ticket]
+  name = "Tickets"
+  action = "BUY"
+  url = "https://www.bagevent.com/event/5316168"
 
-[[tickets]]
-  price = "100 ￥"
-  desc = "total 200 places"
-  status = "SOLD OUT"
+  # [[ticket.tickets]]
+  #   price = "100 ￥"
+  #   desc = "total 200 places"
+  #   status = "SOLD OUT"
 
-[[tickets]]
-  price = "500 ￥"
-  desc = "total 100 places"
-  status = "SOLD OUT"
+  # [[ticket.tickets]]
+  #   price = "500 ￥"
+  #   desc = "total 100 places"
+  #   status = "SOLD OUT"
 
-[[tickets]]
-  price = "800 ￥"
-  desc = "total 50 places"
-  status = "SOLD OUT"
+  # [[ticket.tickets]]
+  #   price = "800 ￥"
+  #   desc = "total 50 places"
+  #   status = "SOLD OUT"
 
 
 
