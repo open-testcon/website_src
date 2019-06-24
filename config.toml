@@ -1,5 +1,5 @@
-baseURL = "http://example.org/"
-title = "qe-camp 2020"
+baseURL = "/"
+title = "OpenTestConf 2020"
 
 enableEmoji = true
 enableMissingTranslationPlaceholders = true
