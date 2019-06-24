@@ -113,10 +113,11 @@ and are prepared to enforce these.</p>"""
   action = "BUY"
   url = "https://www.bagevent.com/event/5316168"
 
-  # [[ticket.tickets]]
-  #   price = "100 ￥"
-  #   desc = "total 200 places"
-  #   status = "SOLD OUT"
+  [[ticket.tickets]]
+    price = "0 $"
+    desc = "total 300 places"
+    status = "BUY TICKET"
+    url = "https://www.bagevent.com/event/5316168"
 
   # [[ticket.tickets]]
   #   price = "500 ￥"

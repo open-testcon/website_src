@@ -11,8 +11,8 @@
 
   {{ partial "blank" . }}
 
-  <div class="row container hide-on-med-and-down">
-    <div class="col l2 offset-l1"></div>
+  <div class="row container center hide-on-med-and-down">
+    <div class="col l2 offset-l3"></div>
     {{ range .tickets }}
     <div class="col l2">
       {{ partial "ticket" . }}
@@ -20,9 +20,9 @@
     {{ end }}
   </div>
 
-  <div class="row container hide-on-large-only">
+  <div class="row center container hide-on-large-only">
     {{ range .tickets }}
-    <div class="col m4 s6">
+    <div class="col s12">
       {{ partial "ticket" . }}
     </div>
     {{ end }}
