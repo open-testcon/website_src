@@ -20,13 +20,17 @@
       {{/*  for mobile  */}}
       <div class="row center hide-on-large-only">
         <div class="col s12">
-          <h3 class="header" style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBlack">
-            <strong>{{ .start_date }}</strong>
+          <h3 style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBold">
+            OpenTestConf
           </h3>
 
-          <h5 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px" class="rhDisplayBold">
-            {{ .location }}
+          <h5 style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBlack">
+            {{ .start_date }}
           </h5>
+
+          <h6 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px" class="rhDisplayBold">
+            {{ .location }}
+          </h6>
         </div>
       </div>
 
@@ -52,7 +56,7 @@
       {{/*  for mobile  */}}
       <div class="hide-on-large-only">
         <div class="row center">
-          <a href="/submission/" id="download-button"
+          <a href="{{ .cfp_url }}" target="_blank"
             class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
             <i class="material-icons left">mic</i>
             {{ .btn_2 }}
