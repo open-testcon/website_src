@@ -19,46 +19,128 @@ and are prepared to enforce these.</p>"""
   participants = 300
   sessions = 20
   days = 2
-  tracks = 4
+  tracks = 3
 
   [[summary.track]]
     name = "Trending Tech In Testing"
-    intro = [
+
+    [[summary.track.data]]
+      name = "cutting edge"
+      intro = [
 "Artificial Intelligence",
 "Machine Learning",
 "BlockChain",
 "IoT",
 "Mobile"]
+    [[summary.track.data]]
+      name = "OPEN HYBRID CLOUD"
+      intro = [
+"Multi-Cloud",
+"Automation",
+"OpenStack",
+"Kubernetes",
+"Serverless",
+"Microservices",
+"Containers",
+"OpenShift/ PaaS",
+"Hybrid Cloud Management",
+"Operators",
+"CNI",
+"Virtualization",
+"Kernel",
+"Service Mesh",
+      ]
+    [[summary.track.data]]
+      name = "Automation and Testing Tools"
+      intro = [
+"Ansible",
+"Ceph",
+"Puppet",
+"Salt",
+"pytest",
+"RobotFramework"
+      ]
+
+    [[summary.track.data]]
+      name = "STORAGE AND NETWORKING Testing"
+      intro = [
+"Cloud Native Storage",
+"Software Defined Storage",
+"Storage Management",
+"Distributed File System",
+"Datastores",
+"Big Data",
+"NFV/ VNF",
+"DPDK",
+"ODL",
+"Software Defined Networki",
+      ]
+
+    [[summary.track.data]]
+      name = "Security & Data Privacy"
+      intro = [
+"Application (hosted and on premise) Security",
+"secure software development and testing",
+"secure application design",
+"secure configurations",
+"containerization",
+"IDM (Identity Management stack)",
+"Data Privacy Policies Implementation and check including GDPR",
+"different ways to test the applications have implemented the policies",
+"Ethical hacking to find flaws in the applications before it hit the public",
+      ]
+
 
   [[summary.track]]
     name = "Testing TOOL"
-    intro = [
-"Container Tooling, CI/CD, DevOps, Code Editors Cloud native IDE, CLI, Local Development for Containers",
-"Language Runtime, Debugging/Tracing, QE, Open Automation Infrastructures, Testing frameworks",
-"Products Integration testing, Testing Microservices and Complex Environments",
-"Performance testing tools, Agile testing methods",
-    ]
 
-  [[summary.track]]
-    name = "Testing Essentials"
-    intro = [
+    [[summary.track.data]]
+      name = "Container Tooling"
+      intro = [
+"CI/CD",
+"DevOps",
+"Code Editors Cloud native IDE",
+"CLI",
+"Local Development for Containers",
+"Language Runtime",
+"Debugging/Tracing",
+"Open Automation Infrastructures",
+"Testing frameworks",
 "Products Integration testing",
 "Testing Microservices and Complex Environments",
-"Testing Methodologies, Test Metrics, Test Management, Test Automation, Test Techniques",
-"Performance Testing, Agile Testing, Career in Testing, Best Practices in Testing",
-"Testing culture and leadership"
-    ]
+"Performance testing tools",
+"Agile testing methods"]
+
+    [[summary.track.data]]
+      name = "Testing Essentials"
+      intro = [
+"Products Integration testing",
+"Testing Microservices and Complex Environments",
+"Testing Methodologies, Test Metrics",
+"Test Management",
+"Test Automation",
+"Test Techniques",
+"Performance Testing",
+"Agile Testing",
+"Career in Testing",
+"Best Practices in Testing",
+"Testing culture and leadership",
+      ]
 
   [[summary.track]]
-    name = "OPEN HYBRID CLOUD"
-    intro = [
-"Multi-Cloud, Automation, OpenStack, Kubernetes, Serverless, Microservices, Containers",
-"OpenShift/ PaaS, Hybrid Cloud Management, Operators, CNI, Virtualization, Kernel, Service Mesh)",
-"Automation and Testing Tools (Ansible, Ceph, Puppet, Salt, pytest, RobotFramework, TestSuit etc)",
-"STORAGE AND NETWORKING Testing which can include (Cloud Native Storage, Software Defined Storage, Storage Management",
-"Distributed File System, Datastores, Big Data",
-"NFV/ VNF, DPDK, ODL, Software Defined Networking",
-    ]
+    name = "FOSS COMMUNITY & STANDARDS"
+
+    [[summary.track.data]]
+      name = "general lists"
+      intro = [
+"Community Trends",
+"Governance",
+"Licensing",
+"Participation",
+"Leadership",
+"Agile",
+"Open Testing Methodologies and Techniqu"
+      ]
 
 
 [video]
