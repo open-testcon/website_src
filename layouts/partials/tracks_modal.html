@@ -1,19 +1,34 @@
-<div id="tracks_modal" class="modal bottom-sheet">
-  <div class="container">
-    <div class="modal-content">
-      <div class="row">
-        {{ range . }}
-        <div class="col l3 s12">
-          <h6 class="rhDisplayBold">{{ .name | upper }}</h6>
-          <div class="divider"></div>
-          <ul>
-            {{ range .intro }}
-            <li style="list-style-type: square">{{ . }}</li>
-            {{ end }}
-          </ul>
-        </div>
-        {{ end }}
+<div id="tracks_modal" class="modal bottom-sheet" style="max-height: 70%;">
+
+  <div class="modal-content">
+    <div class="row">
+      {{ range . }}
+      <div class="col l4 s12 center">
+        <h6 class="rhDisplayBold">{{ .name | upper }}</h6>
+
+        <br>
+
+        <ul class="collapsible popout">
+          {{ range .data }}
+          {{/*  <li style="list-style-type: square">{{ . }}</li> */}}
+          <li>
+            <div class="collapsible-header">{{ .name | upper }}</div>
+            <div class="collapsible-body left-align">
+              <ul>
+                {{ range .intro }}
+                <li style="list-style-type: square;">{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          </li>
+
+
+          {{ end }}
+        </ul>
+
       </div>
+      {{ end }}
     </div>
   </div>
+
 </div>
