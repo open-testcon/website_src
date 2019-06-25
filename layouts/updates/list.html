@@ -10,10 +10,10 @@
     </div>
     <div class="card-stacked">
       <div class="card-content">
-        <p>{{ .Date.Format "2006-01-02" }}</p>
-        <a href="{{.RelPermalink}}">
-          <h4>{{ .Title }}</h4>
+        <a href="{{.RelPermalink}}" style="color: black">
+          <h3 class="rhDisplayBlack">{{ .Title | upper }}</h3>
         </a>
+        <pre>{{ .Date.Format "2006-01-02" }}</pre>
       </div>
     </div>
   </div>
