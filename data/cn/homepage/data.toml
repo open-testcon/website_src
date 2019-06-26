@@ -55,14 +55,14 @@
   title = "请通过下列渠道获取最新进展"
 
 [[subs]]
-  name = "推特"
+  name = "微博"
   url = ""
-  icon = "fab fa-twitter"
+  icon = "fab fa-weibo"
 
 [[subs]]
-  name = "电报群"
-  url = ""
-  icon = "fab fa-telegram"
+  name = "红帽公众号"
+  url = "https://mp.weixin.qq.com/s/7YBC0gpkK4H3XroJ4rkmrw"
+  icon = "fab fa-weixin"
 
 [ticket]
   name = "门票"
@@ -70,19 +70,19 @@
   url = "https://www.bagevent.com/event/5248348"
 
   [[ticket.tickets]]
-    price = "100 ￥"
-    desc = "总共２００位"
-    status = "售罄"
+    price = "0 ￥"
+    desc = "总共 3００位"
+    status = "购买"
 
-  [[ticket.tickets]]
-    price = "500 ￥"
-    desc = "总共１０００位"
-    status = "售罄"
+  # [[ticket.tickets]]
+  #   price = "500 ￥"
+  #   desc = "总共１０００位"
+  #   status = "售罄"
 
-  [[ticket.tickets]]
-    price = "800 ￥"
-    desc = "总共５０位"
-    status = "售罄"
+  # [[ticket.tickets]]
+  #   price = "800 ￥"
+  #   desc = "总共５０位"
+  #   status = "售罄"
 
 [venue]
 
