@@ -11,11 +11,11 @@
   <br>
   <div class="row center">
     {{ range . }}
-    <a href="{{ .url }}" class="btn-large waves-effect waves-light red darken-2 z-depth-4" target="_blank">
-      <i class="{{ .icon }}"></i>&nbsp;
-      {{ .name }}
-    </a>
-    &nbsp;&nbsp;&nbsp;
+    {{ if eq .name "红帽公众号" }}
+    {{ partial "sub_weixin" . }}
+    {{ else }}
+    {{ partial "sub_regular" . }}
+    {{ end }}
     {{ end }}
   </div>
   <h4>&nbsp;</h4>
