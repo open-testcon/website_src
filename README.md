@@ -18,7 +18,7 @@ compiled site under `public` folder
 
 ## TODO
 
-- [ ] separate content from style template
-- [ ] i118 support, at least chinese and english
+- [x] separate content from style template
+- [x] i118 support, at least chinese and english
 - [ ] schedule page
-- [ ] backend for submission
+- [ ] speaker page
