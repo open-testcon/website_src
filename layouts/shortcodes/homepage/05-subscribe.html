@@ -3,13 +3,15 @@
 <div class="section red darken-3">
   <div class="row container center">
     {{ with $data.homepage.data.sub }}
-    <h3 class="header white-text hide-on-med-and-down rhDisplayBlack">{{ .title }}</h3>
-    <h4 class="header white-text hide-on-med-and-up rhDisplayBlack">{{ .title }}</h4>
+    <h3 class="white-text hide-on-med-and-down rhDisplayBlack"
+      style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">{{ .title }}</h3>
+    <h4 class="white-text hide-on-med-and-up rhDisplayBlack">{{ .title }}</h4>
     {{ end }}
   </div>
+  <br>
   <div class="row center">
     {{ range . }}
-    <a href="{{ .url }}" class="btn-large waves-effect waves-light red darken-2 z-depth-4">
+    <a href="{{ .url }}" class="btn-large waves-effect waves-light red darken-2 z-depth-4" target="_blank">
       <i class="{{ .icon }}"></i>&nbsp;
       {{ .name }}
     </a>
