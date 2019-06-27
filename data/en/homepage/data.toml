@@ -2,9 +2,10 @@
 
   start_date = "March 30-31, 2020"
   location = "Landmark Towers Convention Centre, Beijing"
-  btn_1 = "BECAME SPONSOR"
+  btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"
   cfp_url = "http://cfp-mysql-qecamp-main.6923.rh-us-east-1.openshiftapps.com/"
+  register_url = "https://www.bagevent.com/event/5316168"
 
 [summary]
 
@@ -191,14 +192,14 @@ and are prepared to enforce these.</p>"""
   icon = "fab fa-telegram"
 
 [ticket]
-  name = "Tickets"
-  action = "BUY"
+  name = "REGISTER"
+  action = "NOW"
   url = "https://www.bagevent.com/event/5316168"
 
   [[ticket.tickets]]
     price = "0 $"
     desc = "total 300 places"
-    status = "BUY TICKET"
+    status = "200 left"
     url = "https://www.bagevent.com/event/5316168"
 
   # [[ticket.tickets]]

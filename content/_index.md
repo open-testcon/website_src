@@ -8,10 +8,10 @@
 
 {{< homepage/03-video "/video/01.mp4" >}}
 
-{{< homepage/04-speaker >}}
+{{< homepage/06-ticket >}}
 
 {{< homepage/05-subscribe >}}
 
-{{< homepage/06-ticket >}}
+{{< homepage/04-speaker >}}
 
 {{< homepage/07-location >}}

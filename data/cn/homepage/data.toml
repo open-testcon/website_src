@@ -2,7 +2,7 @@
 
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京"
-  btn_1 = "成为赞助商"
+  btn_1 = "现在注册"
   btn_2 = "提交您的主题"
   cfp_url = "http://cfp-mysql-qecamp-main.6923.rh-us-east-1.openshiftapps.com/"
 
@@ -65,14 +65,14 @@
   icon = "fab fa-weixin"
 
 [ticket]
-  name = "门票"
-  action = "购买"
+  name = "现在注册"
+  action = "注册"
   url = "https://www.bagevent.com/event/5248348"
 
   [[ticket.tickets]]
     price = "0 ￥"
     desc = "总共 3００位"
-    status = "购买"
+    status = "注册"
 
   # [[ticket.tickets]]
   #   price = "500 ￥"
