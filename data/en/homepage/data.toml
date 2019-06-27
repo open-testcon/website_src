@@ -1,5 +1,5 @@
 [meeting]
-
+  name = "Open TestConf"
   start_date = "March 30-31, 2020"
   location = "Landmark Towers Convention Centre, Beijing"
   btn_1 = "REGISTER NOW"
@@ -216,7 +216,10 @@ and are prepared to enforce these.</p>"""
 
 [venue]
 
-  name = "Landmark Convention Center"
+  name = "Landmark Hotel"
   desc = "The Landmark Convention Center comprised of a spectacular 800 square meters Vanda Grand Hall, a grand 1100 square meters Bauhinia Grand Hall as well as Plum Blossom Room, The Lotus Room etc., total twelve such lovely multifunction rooms."
-  address = "No. 8, North Dongsanhuan Road,Chaoyang District, Beijing, China Tel:(86-10)65906688"
+  address = [
+    "No 8, North Dongsanhuan Road",
+    "Chaoyang District, Beijing China",
+    "Tel: (86-10)65906688"]
   url = "https://goo.gl/maps/oxYGEyoDRGnaU5FA6"
