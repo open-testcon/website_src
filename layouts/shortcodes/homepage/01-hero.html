@@ -37,12 +37,6 @@
 
       {{/*  for pc  */}}
       <div class="hide-on-med-and-down">
-        <div class="row center">
-          <a href="" id="download-button" class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
-            <i class="material-icons left">star</i>
-            {{ .btn_1 }}
-          </a>
-        </div>
 
         <div class="row center">
           <a href="{{ .cfp_url }}" id="download-button"
@@ -51,6 +45,15 @@
             {{ .btn_2 }}
           </a>
         </div>
+
+        <div class="row center">
+          <a href="{{ .register_url }}" target="_blank"
+            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold pulse">
+            <i class="fas fa-sign-in-alt" style="margin-right: 10px"></i>
+            {{ .btn_1 }}
+          </a>
+        </div>
+
       </div>
 
       {{/*  for mobile  */}}

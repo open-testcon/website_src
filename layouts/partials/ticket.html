@@ -1,8 +1,8 @@
 <div class="card center">
   <div class="card-content black-text">
-    <h3 class="header">
-      <strong>{{ .price }}</strong>
-    </h3>
+    {{/*  <strong>{{ .price }}</strong> */}}
+    <i class="large material-icons red-text text-darken-1">wifi_tethering</i>
+
     <p class="rhTextBold">{{ .desc }}</p>
     {{/*  {{ partial "blank" . }} */}}
     <a class="waves-effect waves-light btn red darken-2" href="{{ .url }}" target="_blank">{{ .status }}</a>
