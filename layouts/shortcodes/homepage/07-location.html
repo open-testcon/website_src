@@ -10,7 +10,11 @@
         </span>
         <h5 class="rhDisplayBlack">{{ .name }}</h5>
 
-        <p class="rhTextBold">{{ .address }}</p>
+        <ul>
+          {{ range .address }}
+          <p>{{ . }}</p>
+          {{ end }}
+        </ul>
 
         <a class="btn-floating btn-large waves-effect waves-light red right" style="margin-bottom: 10px"
           href="{{ .url }}" target="_blank">
@@ -26,8 +30,11 @@
     </a>
     <div id="venue-modal" class="modal card red darken-3">
       <div class=" modal-content">
-        <h4 class="rhDisplayBlack">{{ .name }}</h4>
-        <p class="rhTextBold">{{ .address }}</p>
+        <h5 class="rhDisplayBlack">{{ .name }}</h5>
+        <br>
+        {{ range .address }}
+        <p class="rhDisplayBold">{{ . }}</p>
+        {{ end }}
       </div>
       <div class="modal-footer red darken-3">
         <a href="#!" class="white-text modal-close waves-effect waves-green btn-flat">Close</a>

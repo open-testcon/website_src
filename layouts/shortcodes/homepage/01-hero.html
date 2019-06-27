@@ -20,15 +20,15 @@
       {{/*  for mobile  */}}
       <div class="row center hide-on-large-only">
         <div class="col s12">
-          <h3 style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBold">
-            OpenTestConf
+          <h3 style="text-shadow: 5px 5px 15px black;margin-bottom: 20px" class="rhDisplayBold">
+            {{ .name }}
           </h3>
 
-          <h5 style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBlack">
+          <h5 style="text-shadow: 5px 5px 15px black;margin-bottom: 20px" class="rhDisplayBlack">
             {{ .start_date }}
           </h5>
 
-          <h6 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px" class="rhDisplayBold">
+          <h6 style="text-shadow: 5px 5px 15px black; margin-bottom: 10px" class="rhDisplayBold">
             {{ .location }}
           </h6>
         </div>
@@ -60,9 +60,17 @@
       <div class="hide-on-large-only">
         <div class="row center">
           <a href="{{ .cfp_url }}" target="_blank"
-            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
+            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
             <i class="material-icons left">mic</i>
             {{ .btn_2 }}
+          </a>
+        </div>
+
+        <div class="row center">
+          <a href="{{ .register_url }}" target="_blank"
+            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold pulse">
+            <i class="fas fa-sign-in-alt" style="margin-right: 10px"></i>
+            {{ .btn_1 }}
           </a>
         </div>
       </div>
