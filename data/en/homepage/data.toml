@@ -1,3 +1,4 @@
+# 01 section meeting ======================
 [meeting]
   name = "Open TestConf"
   start_date = "March 30-31, 2020"
@@ -7,6 +8,7 @@
   cfp_url = "http://cfp-mysql-qecamp-main.6923.rh-us-east-1.openshiftapps.com/"
   register_url = "https://www.bagevent.com/event/5316168"
 
+# 02 section summary ======================
 [summary]
 
   intro_q = "What is OpenTestConf?"
@@ -144,11 +146,13 @@ and are prepared to enforce these.</p>"""
       ]
 
 
+# 03 section video ======================
 [video]
 
   intro = "Watch the best momoents"
   url = "/video/01.mp4"
 
+# 04 section speakers ======================
 [speaker]
   title = "Featured Speakers"
   btn = "SUBMIT PRESENTATION"
@@ -178,6 +182,7 @@ and are prepared to enforce these.</p>"""
   avatar = "/img/avatar/demo02.jpg"
 
 
+# 05 section subscribe ======================
 [sub]
   title = "Get notified about the important updates"
 
@@ -191,6 +196,7 @@ and are prepared to enforce these.</p>"""
   url = ""
   icon = "fab fa-telegram"
 
+# 06 section ticket ======================
 [ticket]
   name = "REGISTER"
   action = "NOW"
@@ -212,8 +218,7 @@ and are prepared to enforce these.</p>"""
   #   desc = "total 50 places"
   #   status = "SOLD OUT"
 
-
-
+# 07 section venue ======================
 [venue]
 
   name = "Landmark Hotel"

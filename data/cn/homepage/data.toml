@@ -1,5 +1,5 @@
 [meeting]
-
+  name = "Open TestConf"
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京"
   btn_1 = "现在注册"
@@ -71,8 +71,9 @@
 
   [[ticket.tickets]]
     price = "0 ￥"
-    desc = "总共 3００位"
-    status = "注册"
+    desc = "共 300"
+    status = "还剩 200"
+    url = "https://www.bagevent.com/event/5248348"
 
   # [[ticket.tickets]]
   #   price = "500 ￥"
