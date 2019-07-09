@@ -23,6 +23,8 @@
             <h3 class="rhDisplayBlack" style="margin-top: 0.1rem">{{ .Title | upper }}</h3>
           </a>
           <blockquote>{{ .Summary }}</blockquote>
+          <a class="waves-effect waves-light btn-small red white-text darken-2"
+            href="{{.RelPermalink}}">{{ i18n "read_more" }}</a>
         </div>
       </div>
     </div>
@@ -37,6 +39,8 @@
             <h6 class="rhDisplayBlack" style="margin-top: 0.1rem">{{ .Title | upper }}</h6>
           </a>
           <pre>{{ .Date.Format "2006-01-02" }}</pre>
+          <a class="waves-effect waves-light btn-small red white-text darken-2"
+            href="{{.RelPermalink}}">{{ i18n "read_more" }}</a>
         </div>
       </div>
     </div>
