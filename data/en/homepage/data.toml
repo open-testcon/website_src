@@ -1,6 +1,6 @@
 # 01 section meeting ======================
 [meeting]
-  name = "Open TestConf"
+  name = "Open TestCon"
   start_date = "March 30-31, 2020"
   location = "Landmark Towers Convention Centre, Beijing"
   btn_1 = "REGISTER NOW"
@@ -11,9 +11,9 @@
 # 02 section summary ======================
 [summary]
 
-  intro_q = "What is OpenTestConf?"
+  intro_q = "What is OpenTestCon?"
   intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-OpenTestConf 2020 is the annual Conference organized by Red Hat in Beijng.
+OpenTestCon 2020 is the annual Conference organized by Red Hat in Beijng.
 </p>
 <p class="rhTextMedium" style="line-height: normal;">
 We are committed to fostering an open and welcoming environment at our conference.
