@@ -9,8 +9,11 @@
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    document.getElementById("{{ .cid }}").innerHTML = days + "d - " + hours + "h: "
+    document.getElementById("{{ .cid }}").innerHTML = days + "d  " + hours + "h: "
       + minutes + "m: " + seconds + "s ";
+
+    document.getElementById("{{ .cid }}").classList.remove("scale-out");
+
 
     if (distance < 0) {
       clearInterval(x);
