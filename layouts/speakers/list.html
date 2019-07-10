@@ -1,5 +1,15 @@
 {{ define "main" }}
+{{ $data := index $.Site.Data $.Site.Language.Lang }}
+{{ with $data.speakers.data.speakers }}
 <div class="container">
-  {{ .Content }}
+  {{ if .released }}
+
+  {{ else }}
+  <br>
+  {{ partial "counter_card" . }}
+  {{ end }}
 </div>
+
+{{ partial "counter" . }}
+{{ end }}
 {{ end }}

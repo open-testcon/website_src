@@ -2,6 +2,7 @@
 {{ $data := index $.Site.Data $.Site.Language.Lang }}
 {{ with $data.schedule.data.schedule }}
 <div class="container">
+  {{ if .released }}
   <table class="centered">
     <thead>
       <tr>
@@ -31,6 +32,13 @@
       </tr>
     </thead>
   </table>
+  {{ else }}
+  <br>
+  {{ partial "counter_card" . }}
+  {{ end }}
 </div>
+
+{{ partial "counter" . }}
+
 {{ end }}
 {{ end }}

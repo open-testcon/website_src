@@ -1,0 +1,9 @@
+[speakers]
+
+  released = false
+  released_date = "2019-12-12T00:12:12+08:00"
+
+  desc_01 = "嘉宾名单将发布于"
+  desc_02 = "离发布还有"
+
+  cid = "cd_time"

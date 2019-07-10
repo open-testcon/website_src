@@ -1,5 +1,13 @@
 [schedule]
 
+  released = false
+  released_date = "2019-12-12T00:12:12+08:00"
+
+  desc_01 = "Schedule will be released on"
+  desc_02 = "Till then still"
+
+  cid = "cd_time"
+
   tracks = ["Timeline", "TRENDING TECH in Testing",
   "Testing TOOL", "Testing Essentials", "OPEN HYBRID CLOUD"]
 
