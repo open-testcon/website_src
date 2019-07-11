@@ -1,7 +1,7 @@
 <div class="row center">
   <div class="card-panel red darken-2 white-text">
     <h4 class="rhDisplayBold center" style="text-shadow: 5px 5px 15px black;margin-bottom: 10px">
-      {{ .desc_01 }}
+      {{ .desc_01 | upper }}
     </h4>
     <br>
     <a class="waves-effect waves-light btn-large red darken-1 white-text z-depth-4">
@@ -9,10 +9,13 @@
       <strong>{{ dateFormat "2006-01-02" .released_date }}</strong>
     </a>
     {{ partial "blank" . }}
+
     <h4 class="rhDisplayBold center" style="text-shadow: 5px 5px 15px black;margin-bottom: 10px">
-      {{ .desc_02 }}
+      {{ .desc_02 | upper }}
     </h4>
-    <h1 class="rhDisplayBold center" id="cd_time" style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">&nbsp;
+    <h1 class="rhDisplayBold center scale-transition scale-out" id="cd_time"
+      style="text-shadow: 5px 5px 15px black;margin-bottom: 30px">&nbsp;
     </h1>
+    {{ partial "blank" . }}
   </div>
 </div>
