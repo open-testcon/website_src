@@ -5,15 +5,15 @@
   location = "Landmark Towers Convention Centre, Beijing"
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"
-  cfp_url = "http://cfp-mysql-qecamp-main.6923.rh-us-east-1.openshiftapps.com/"
+  cfp_url = "https://cfp.opentestcon.org/"
   register_url = "https://www.bagevent.com/event/5316168"
 
 # 02 section summary ======================
 [summary]
 
-  intro_q = "What is OpenTestCon?"
+  intro_q = "What is Open TestCon?"
   intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-OpenTestCon 2020 is the annual Conference organized by Red Hat in Beijng.
+Open TestCon 2020 is the annual Conference organized by Red Hat in Beijng.
 </p>
 <p class="rhTextMedium" style="line-height: normal;">
 We are committed to fostering an open and welcoming environment at our conference.
