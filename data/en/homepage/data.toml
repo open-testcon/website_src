@@ -189,7 +189,7 @@ and are prepared to enforce these.</p>"""
 
 [[subs]]
   name = "Twitter"
-  url = ""
+  url = "https://twitter.com/RedHat"
   icon = "fab fa-twitter"
 
 [[subs]]
