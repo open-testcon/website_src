@@ -1,27 +1,159 @@
+# 01 section meeting ======================
 [meeting]
-  name = "Open TestConf"
+  name = "Open TestCon"
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京"
+  register_open = true
   btn_1 = "现在注册"
   btn_2 = "提交您的主题"
   cfp_url = "https://cfp.opentestcon.org/"
+  register_url = "https://www.bagevent.com/event/5248348"
 
+# 02 section summary ======================
 [summary]
 
   intro_q = "什么是开源测试大会"
-  intro_a = """現在想沒得再一個，向著面前不知終極的路上，不許他們永久立存同一位置的勢力。第三天那些遠來的人們，一樣是歹命人！又有人不平地說，
-不是一件很合理得快活的事嗎？西門那賣點心的老人，地方領導人。"""
+  intro_a = """
+
+
+
+
+
+  """
   participants = 300
   sessions = 20
   days = 2
   tracks = 3
 
+  [[summary.track]]
+    name = "Trending Tech In Testing"
+
+    [[summary.track.data]]
+      name = "cutting edge"
+      intro = [
+"Artificial Intelligence",
+"Machine Learning",
+"BlockChain",
+"IoT",
+"Mobile"]
+    [[summary.track.data]]
+      name = "OPEN HYBRID CLOUD"
+      intro = [
+"Multi-Cloud",
+"Automation",
+"OpenStack",
+"Kubernetes",
+"Serverless",
+"Microservices",
+"Containers",
+"OpenShift/ PaaS",
+"Hybrid Cloud Management",
+"Operators",
+"CNI",
+"Virtualization",
+"Kernel",
+"Service Mesh",
+      ]
+    [[summary.track.data]]
+      name = "Automation and Testing Tools"
+      intro = [
+"Ansible",
+"Ceph",
+"Puppet",
+"Salt",
+"pytest",
+"RobotFramework"
+      ]
+
+    [[summary.track.data]]
+      name = "STORAGE AND NETWORKING Testing"
+      intro = [
+"Cloud Native Storage",
+"Software Defined Storage",
+"Storage Management",
+"Distributed File System",
+"Datastores",
+"Big Data",
+"NFV/ VNF",
+"DPDK",
+"ODL",
+"Software Defined Networki",
+      ]
+
+    [[summary.track.data]]
+      name = "Security & Data Privacy"
+      intro = [
+"Application (hosted and on premise) Security",
+"secure software development and testing",
+"secure application design",
+"secure configurations",
+"containerization",
+"IDM (Identity Management stack)",
+"Data Privacy Policies Implementation and check including GDPR",
+"different ways to test the applications have implemented the policies",
+"Ethical hacking to find flaws in the applications before it hit the public",
+      ]
+
+
+  [[summary.track]]
+    name = "Testing TOOL"
+
+    [[summary.track.data]]
+      name = "Container Tooling"
+      intro = [
+"CI/CD",
+"DevOps",
+"Code Editors Cloud native IDE",
+"CLI",
+"Local Development for Containers",
+"Language Runtime",
+"Debugging/Tracing",
+"Open Automation Infrastructures",
+"Testing frameworks",
+"Products Integration testing",
+"Testing Microservices and Complex Environments",
+"Performance testing tools",
+"Agile testing methods"]
+
+    [[summary.track.data]]
+      name = "Testing Essentials"
+      intro = [
+"Products Integration testing",
+"Testing Microservices and Complex Environments",
+"Testing Methodologies, Test Metrics",
+"Test Management",
+"Test Automation",
+"Test Techniques",
+"Performance Testing",
+"Agile Testing",
+"Career in Testing",
+"Best Practices in Testing",
+"Testing culture and leadership",
+      ]
+
+  [[summary.track]]
+    name = "FOSS COMMUNITY & STANDARDS"
+
+    [[summary.track.data]]
+      name = "general lists"
+      intro = [
+"Community Trends",
+"Governance",
+"Licensing",
+"Participation",
+"Leadership",
+"Agile",
+"Open Testing Methodologies and Techniqu"
+      ]
+
+
+# 03 section video ======================
 [video]
 
   intro = "观看往年的精彩时刻"
   url = "/video/01.mp4"
 
-
+# 04 section speakers ======================
 [speaker]
   title = "主题演讲嘉宾"
   btn = "提交主题"
@@ -51,6 +183,7 @@
   avatar = "/img/avatar/demo02.jpg"
 
 
+# 05 section subscribe ======================
 [sub]
   title = "请通过下列渠道获取最新进展"
 
