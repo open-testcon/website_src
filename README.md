@@ -11,7 +11,7 @@
 ## Build
 
 ```
-> hugo --minify
+> hugo
 ```
 
 compiled site under `public` folder
