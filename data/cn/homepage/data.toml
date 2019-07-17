@@ -3,7 +3,7 @@
   name = "Open TestCon"
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京"
-  register_open = true
+  register_open = false
   btn_1 = "现在注册"
   btn_2 = "提交您的主题"
   cfp_url = "https://cfp.opentestcon.org/"

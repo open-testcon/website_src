@@ -3,7 +3,7 @@
   name = "Open TestCon"
   start_date = "March 30-31, 2020"
   location = "Landmark Towers Convention Center, Beijing"
-  register_open = true
+  register_open = false
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"
   cfp_url = "https://cfp.opentestcon.org/"
