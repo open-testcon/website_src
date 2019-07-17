@@ -2,7 +2,7 @@
 [meeting]
   name = "Open TestCon"
   start_date = "March 30-31, 2020"
-  location = "Landmark Towers Convention Centre, Beijing"
+  location = "Landmark Towers Convention Center, Beijing"
   register_open = false
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"
@@ -150,7 +150,7 @@ and are prepared to enforce these.</p>"""
 # 03 section video ======================
 [video]
 
-  intro = "Watch the best momoents"
+  intro = "Watch the best moments"
   url = "/video/01.mp4"
 
 # 04 section speakers ======================
