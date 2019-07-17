@@ -2,15 +2,23 @@
 {{ with $data.homepage.data.ticket }}
 <div class="section white ">
   <div class="row container center">
-    <h2 class="header rhDisplayBlack">{{ .name }}</h2>
+    <h2 class="rhDisplayBlack">{{ .name }}</h2>
+    {{if .register_open }}
     <a href="{{ .url }}" class="btn-large waves-effect waves-light red darken-1 z-depth-4" target="_blank">
       <i class="material-icons left">add_shopping_cart</i>
       {{ .action }}
     </a>
+    {{ else }}
+    <a class="btn-large waves-effect waves-light red darken-1 z-depth-4 disabled">
+      <i class="material-icons left">add_shopping_cart</i>
+      {{ .action_no }}
+    </a>
+    {{end}}
   </div>
 
   {{ partial "blank" . }}
 
+  {{ if .register_open }}
   <div class="row container center hide-on-med-and-down">
     <div class="col l2 offset-l3"></div>
     {{ range .tickets }}
@@ -27,7 +35,11 @@
     </div>
     {{ end }}
   </div>
-
+  {{ else }}
+  <div class="row container center">
+    <h5 class="rhDisplayBold">{{ .desc_no }}</h5>
+  </div>
+  {{ end }}
 
 </div>
 {{ end }}

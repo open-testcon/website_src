@@ -3,6 +3,7 @@
   name = "Open TestCon"
   start_date = "March 30-31, 2020"
   location = "Landmark Towers Convention Centre, Beijing"
+  register_open = false
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"
   cfp_url = "https://cfp.opentestcon.org/"
@@ -198,14 +199,17 @@ and are prepared to enforce these.</p>"""
 
 # 06 section ticket ======================
 [ticket]
+  register_open = false
   name = "REGISTER"
   action = "NOW"
+  action_no = "WILL BE OPEN SOON"
   url = "https://www.bagevent.com/event/5316168"
+  desc_no = "There are 300 seats in this meeting. Welcome to register."
 
   [[ticket.tickets]]
     price = "0 $"
     desc = "total 300 places"
-    status = "200 left"
+    status = "300 left"
     url = "https://www.bagevent.com/event/5316168"
 
   # [[ticket.tickets]]

@@ -65,14 +65,17 @@
   icon = "fab fa-weixin"
 
 [ticket]
+  register_open = false
   name = "现在注册"
   action = "注册"
+  action_no = "敬请期待"
+  desc_no = "本次活动共有300个席位，欢迎报名参加"
   url = "https://www.bagevent.com/event/5248348"
 
   [[ticket.tickets]]
     price = "0 ￥"
     desc = "共 300"
-    status = "还剩 200"
+    status = "还剩 300"
     url = "https://www.bagevent.com/event/5248348"
 
   # [[ticket.tickets]]
