@@ -1,5 +1,5 @@
 [meeting]
-  name = "Open TestConf"
+  name = "Open TestCon"
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京"
   btn_1 = "现在注册"
@@ -8,13 +8,135 @@
 
 [summary]
 
-  intro_q = "什么是开源测试大会"
-  intro_a = """現在想沒得再一個，向著面前不知終極的路上，不許他們永久立存同一位置的勢力。第三天那些遠來的人們，一樣是歹命人！又有人不平地說，
-不是一件很合理得快活的事嗎？西門那賣點心的老人，地方領導人。"""
+  intro_q = "什么是Open TestCon 2020"
+  intro_a = """Open TestCon 2020是由Red Hat在北京举办的年度会议"""
+</p>
+<p class="rhTextMedium" style="line-height: normal;">
+我们致力营造一个开放和热情的测试领域大会。我们通过我们的 <a href="/updates/2019-06-20.cn">行为准则</a> 和 <a href="/updates/2019-06-19.cn">媒体政策</a>来保证对这些包容性行为的期望。</p>"""
   participants = 300
   sessions = 20
   days = 2
   tracks = 3
+
+  [[summary.track]]
+    name = "测试领域的流行技术"
+
+    [[summary.track.data]]
+      name = "前沿技术"
+      intro = [
+"人工智能",
+"机器学习",
+"区块链",
+"物联网",
+"移动通信"]
+    [[summary.track.data]]
+      name = "开放的混合云"
+      intro = [
+"多云",
+"自动化",
+"OpenStack",
+"Kubernetes",
+"无主机服务",
+"微服务",
+"容器",
+"OpenShift/PaaS",
+"混合云管理",
+"Operators",
+"CNI",
+"虚拟化",
+"内核",
+"Service Mesh",
+      ]
+    [[summary.track.data]]
+      name = "自动化测试工具"
+      intro = [
+"Ansible",
+"Ceph",
+"Puppet",
+"Salt",
+"pytest",
+"RobotFramework"
+      ]
+
+    [[summary.track.data]]
+      name = "存储和网络测试
+      intro = [
+"云原生存储",
+"软件定义的存储",
+"存储管理",
+"分布式文件存储",
+"数据存储",
+"大数据",
+"网络功能虚拟化",
+"DPDK",
+"ODL",
+"软件定义网络"
+      ]
+
+    [[summary.track.data]]
+      name = "数据安全和隐私"
+      intro = [
+"应用安全",
+"安全的软件开发和测试",
+"安全应用设计",
+"安全配置",
+"容器化,
+"身份管理",
+"数据隐私政策实施和检查",
+"不同的方法测试应用策略实施",
+"道德黑客在应用程序出现之前发现应用程序中的缺陷"
+      ]
+
+
+  [[summary.track]]
+    name = "测试工具"
+
+    [[summary.track.data]]
+      name = "容器化工具"
+      intro = [
+"持续开发和持续集成",
+"运维开发",
+"云原生代码编辑器IDE",
+"命令行",
+"容器化的本地开发",
+"开发语言运行时",
+"调试/跟踪",
+"开放式自动化基础设施",
+"测试框架",
+"产品集成测试",
+"复杂环境的微服务测试",
+"性能测试工具",
+"敏捷测试方法"
+      ]
+
+    [[summary.track.data]]
+      name = "测试精要"
+      intro = [
+"测试方法，测量指标",
+"测试管理",
+"测试自动化",
+"测试技术",
+"性能测试",
+"敏捷测试",
+"测试的职业发展",
+"测试的最佳实践",
+"测试文化和领导力"
+      ]
+
+  [[summary.track]]
+    name = "FOSS社区和标准"
+
+    [[summary.track.data]]
+      name = "general lists"
+      intro = [
+"社区趋势"，
+"社区管理"，
+"社区许可"，
+"社区参与"，
+"领导"，
+"敏捷"，
+"开放测试方法和技术"
+      ]
 
 [video]
 
