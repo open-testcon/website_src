@@ -2,7 +2,7 @@
 [meeting]
   name = "Open TestCon"
   start_date = "March 30-31, 2020"
-  location = "Landmark Towers Convention Center, Beijing"
+  location = "Landmark Towers Convention Center, Beijing, China"
   register_open = false
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"
@@ -162,25 +162,25 @@ and are prepared to enforce these.</p>"""
   name = "Wei Shi"
   company = "Virt, Redhat"
   location = "Beijing, China"
-  avatar = "/img/avatar/demo02.jpg"
+  avatar = "/img/avatar/demo01.png"
 
 [[speakers]]
   name = "Jianqiang Hou"
   company = "Openshift, Redhat"
   location = "Beijing, China"
-  avatar = "/img/avatar/demo02.jpg"
+  avatar = "/img/avatar/demo01.png"
 
 [[speakers]]
   name = "Jaime Lannister"
   company = "Kingsguard"
   location = "King's Landing, Westeros"
-  avatar = "/img/avatar/demo02.jpg"
+  avatar = "/img/avatar/demo01.png"
 
 [[speakers]]
   name = "John Doe"
   company = "Devops, Redhat"
   location = "Beijing, China"
-  avatar = "/img/avatar/demo02.jpg"
+  avatar = "/img/avatar/demo01.png"
 
 
 # 05 section subscribe ======================
