@@ -3,7 +3,6 @@ left_content = """
 """
 copyright = "Copyright ©2019 Red Hat, Inc."
 
-
 [[links]]
 text = "Redhat"
 url = "https://www.redhat.com/"

@@ -1,24 +1,30 @@
+# 01 section meeting ======================
 [meeting]
   name = "Open TestCon"
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京"
+  register_open = false
   btn_1 = "现在注册"
   btn_2 = "提交您的主题"
   cfp_url = "https://cfp.opentestcon.org/"
+  register_url = "https://www.bagevent.com/event/5248348"
 
+# 02 section summary ======================
 [summary]
-
   intro_q = "什么是Open TestCon 2020"
-  intro_a = """Open TestCon 2020是由Red Hat在北京举办的年度会议"""
+  intro_a = """<p class="rhTextMedium" style="line-height: normal;">
+Open TestCon 2020是由Red Hat在北京举办的年度会议
 </p>
 <p class="rhTextMedium" style="line-height: normal;">
 我们致力营造一个开放和热情的测试领域大会。我们通过我们的 <a href="/updates/2019-06-20.cn">行为准则</a> 和 <a href="/updates/2019-06-19.cn">媒体政策</a>来保证对这些包容性行为的期望。</p>"""
+
   participants = 300
   sessions = 20
   days = 2
   tracks = 3
 
   [[summary.track]]
+
     name = "测试领域的流行技术"
 
     [[summary.track.data]]
@@ -49,6 +55,7 @@
       ]
     [[summary.track.data]]
       name = "自动化测试工具"
+
       intro = [
 "Ansible",
 "Ceph",
@@ -59,6 +66,7 @@
       ]
 
     [[summary.track.data]]
+
       name = "存储和网络测试
       intro = [
 "云原生存储",
@@ -85,6 +93,7 @@
 "数据隐私政策实施和检查",
 "不同的方法测试应用策略实施",
 "道德黑客在应用程序出现之前发现应用程序中的缺陷"
+
       ]
 
 
@@ -126,6 +135,7 @@
   [[summary.track]]
     name = "FOSS社区和标准"
 
+
     [[summary.track.data]]
       name = "general lists"
       intro = [
@@ -143,7 +153,7 @@
   intro = "观看往年的精彩时刻"
   url = "/video/01.mp4"
 
-
+# 04 section speakers ======================
 [speaker]
   title = "主题演讲嘉宾"
   btn = "提交主题"
@@ -173,12 +183,13 @@
   avatar = "/img/avatar/demo02.jpg"
 
 
+# 05 section subscribe ======================
 [sub]
   title = "请通过下列渠道获取最新进展"
 
 [[subs]]
   name = "微博"
-  url = ""
+  url = "https://weibo.com/redhatchina"
   icon = "fab fa-weibo"
 
 [[subs]]
