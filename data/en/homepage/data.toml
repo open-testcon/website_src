@@ -17,9 +17,8 @@
 Open TestCon 2020 is the annual Conference organized by Red Hat in Beijng.
 </p>
 <p class="rhTextMedium" style="line-height: normal;">
-We are committed to fostering an open and welcoming environment at our conference.
-We are setting expectations for inclusive behavior through our <a href="/updates/2019-06-20">Code Of Conduct</a> and <a href="/updates/2019-06-19">Media Policies</a>,
-and are prepared to enforce these.</p>"""
+我们致力营造一个开放和热情的测试领域大会。我们通过我们的 <a href="/updates/2019-06-20.cn">行为准则</a> 和 <a href="/updates/2019-06-19.cn">媒体政策</a>,
+来保证对这些包容性行为的期望</p>"""
   participants = 300
   sessions = 20
   days = 2

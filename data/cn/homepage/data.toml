@@ -11,51 +11,51 @@
 
 # 02 section summary ======================
 [summary]
+  intro_q = "什么是Open TestCon 2020"
+  intro_a = """<p class="rhTextMedium" style="line-height: normal;">
+Open TestCon 2020是由Red Hat在北京举办的年度会议
+</p>
+<p class="rhTextMedium" style="line-height: normal;">
+我们致力营造一个开放和热情的测试领域大会。我们通过我们的 <a href="/updates/2019-06-20.cn">行为准则</a> 和 <a href="/updates/2019-06-19.cn">媒体政策</a>来保证对这些包容性行为的期望。</p>"""
 
-  intro_q = "什么是开源测试大会"
-  intro_a = """
-
-
-
-
-
-  """
   participants = 300
   sessions = 20
   days = 2
   tracks = 3
 
   [[summary.track]]
-    name = "Trending Tech In Testing"
+
+    name = "测试领域的流行技术"
 
     [[summary.track.data]]
-      name = "cutting edge"
+      name = "前沿技术"
       intro = [
-"Artificial Intelligence",
-"Machine Learning",
-"BlockChain",
-"IoT",
-"Mobile"]
+"人工智能",
+"机器学习",
+"区块链",
+"物联网",
+"移动通信"]
     [[summary.track.data]]
-      name = "OPEN HYBRID CLOUD"
+      name = "开放的混合云"
       intro = [
-"Multi-Cloud",
-"Automation",
+"多云",
+"自动化",
 "OpenStack",
 "Kubernetes",
-"Serverless",
-"Microservices",
-"Containers",
-"OpenShift/ PaaS",
-"Hybrid Cloud Management",
+"无主机服务",
+"微服务",
+"容器",
+"OpenShift/PaaS",
+"混合云管理",
 "Operators",
 "CNI",
-"Virtualization",
-"Kernel",
+"虚拟化",
+"内核",
 "Service Mesh",
       ]
     [[summary.track.data]]
-      name = "Automation and Testing Tools"
+      name = "自动化测试工具"
+
       intro = [
 "Ansible",
 "Ceph",
@@ -66,88 +66,88 @@
       ]
 
     [[summary.track.data]]
-      name = "STORAGE AND NETWORKING Testing"
+
+      name = "存储和网络测试
       intro = [
-"Cloud Native Storage",
-"Software Defined Storage",
-"Storage Management",
-"Distributed File System",
-"Datastores",
-"Big Data",
-"NFV/ VNF",
+"云原生存储",
+"软件定义的存储",
+"存储管理",
+"分布式文件存储",
+"数据存储",
+"大数据",
+"网络功能虚拟化",
 "DPDK",
 "ODL",
-"Software Defined Networki",
+"软件定义网络"
       ]
 
     [[summary.track.data]]
-      name = "Security & Data Privacy"
+      name = "数据安全和隐私"
       intro = [
-"Application (hosted and on premise) Security",
-"secure software development and testing",
-"secure application design",
-"secure configurations",
-"containerization",
-"IDM (Identity Management stack)",
-"Data Privacy Policies Implementation and check including GDPR",
-"different ways to test the applications have implemented the policies",
-"Ethical hacking to find flaws in the applications before it hit the public",
+"应用安全",
+"安全的软件开发和测试",
+"安全应用设计",
+"安全配置",
+"容器化,
+"身份管理",
+"数据隐私政策实施和检查",
+"不同的方法测试应用策略实施",
+"道德黑客在应用程序出现之前发现应用程序中的缺陷"
+
       ]
 
 
   [[summary.track]]
-    name = "Testing TOOL"
+    name = "测试工具"
 
     [[summary.track.data]]
-      name = "Container Tooling"
+      name = "容器化工具"
       intro = [
-"CI/CD",
-"DevOps",
-"Code Editors Cloud native IDE",
-"CLI",
-"Local Development for Containers",
-"Language Runtime",
-"Debugging/Tracing",
-"Open Automation Infrastructures",
-"Testing frameworks",
-"Products Integration testing",
-"Testing Microservices and Complex Environments",
-"Performance testing tools",
-"Agile testing methods"]
+"持续开发和持续集成",
+"运维开发",
+"云原生代码编辑器IDE",
+"命令行",
+"容器化的本地开发",
+"开发语言运行时",
+"调试/跟踪",
+"开放式自动化基础设施",
+"测试框架",
+"产品集成测试",
+"复杂环境的微服务测试",
+"性能测试工具",
+"敏捷测试方法"
+      ]
 
     [[summary.track.data]]
-      name = "Testing Essentials"
+      name = "测试精要"
       intro = [
-"Products Integration testing",
-"Testing Microservices and Complex Environments",
-"Testing Methodologies, Test Metrics",
-"Test Management",
-"Test Automation",
-"Test Techniques",
-"Performance Testing",
-"Agile Testing",
-"Career in Testing",
-"Best Practices in Testing",
-"Testing culture and leadership",
+"测试方法，测量指标",
+"测试管理",
+"测试自动化",
+"测试技术",
+"性能测试",
+"敏捷测试",
+"测试的职业发展",
+"测试的最佳实践",
+"测试文化和领导力"
       ]
 
   [[summary.track]]
-    name = "FOSS COMMUNITY & STANDARDS"
+    name = "FOSS社区和标准"
+
 
     [[summary.track.data]]
       name = "general lists"
       intro = [
-"Community Trends",
-"Governance",
-"Licensing",
-"Participation",
-"Leadership",
-"Agile",
-"Open Testing Methodologies and Techniqu"
+"社区趋势"，
+"社区管理"，
+"社区许可"，
+"社区参与"，
+"领导"，
+"敏捷"，
+"开放测试方法和技术"
       ]
 
-
-# 03 section video ======================
 [video]
 
   intro = "观看往年的精彩时刻"
