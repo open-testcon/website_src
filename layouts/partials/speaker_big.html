@@ -1,4 +1,4 @@
-<div class="col s12 m8 offset-m2 l6 offset-l3">
+<div class="col s12 m8 offset-m2 l6 offset-l3 hide-on-med-and-down">
   <div class="card-panel grey lighten-5 z-depth-3">
     <div class="row valign-wrapper">
       <div class="col s3">
@@ -12,5 +12,23 @@
         <h6>{{ .bio }}</h6>
       </div>
     </div>
+  </div>
+</div>
+
+
+<div class="col s12 hide-on-large-only">
+  <div class="card-panel grey lighten-5 z-depth-3">
+    <div class="card-image">
+      <img src="{{ .avatar }}" class="circle responsive-img">
+    </div>
+
+    <div class="card-content">
+      <a class="waves-effect waves-light btn red darken-1 white-text">{{ .rank }}</a>
+      <h4 class="rhDisplayBlack">{{ .name }}</h4>
+      <h6 class="rhDisplayBold">{{ .title }}</h6>
+
+      <h6>{{ .bio }}</h6>
+    </div>
+
   </div>
 </div>
