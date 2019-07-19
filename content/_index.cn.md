@@ -12,7 +12,7 @@
 
 {{< homepage/05-subscribe >}}
 
-{{< homepage/04-speaker >}}
+<!-- {{< homepage/04-speaker >}} -->
 
 {{< homepage/07-location >}}
 
