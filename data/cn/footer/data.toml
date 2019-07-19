@@ -9,12 +9,13 @@ url = "https://www.redhat.com/"
 
 [[links]]
 text = "Openshift"
-url = ""
+url = "https://www.openshift.com/"
 
 [[links]]
-text = "RHV"
-url = ""
+text = "oVirt"
+url = "https://ovirt.org/"
 
 [[links]]
 text = "RHEL"
-url = ""
+url = "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+
