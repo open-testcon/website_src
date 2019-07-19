@@ -189,11 +189,11 @@ and are prepared to enforce these.</p>"""
 
 [[subs]]
   name = "Twitter"
-  url = "https://twitter.com/RedHat"
+  url = "https://twitter.com/ConOpen"
   icon = "fab fa-twitter"
 
 [[subs]]
-  name = "Telgram"
+  name = "Telegram"
   url = ""
   icon = "fab fa-telegram"
 
