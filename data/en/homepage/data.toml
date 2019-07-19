@@ -189,13 +189,13 @@ and are prepared to enforce these.</p>"""
 
 [[subs]]
   name = "Twitter"
-  url = "https://twitter.com/ConOpen"
+  url = "https://twitter.com/OpenTestCon"
   icon = "fab fa-twitter"
 
 [[subs]]
-  name = "Telegram"
-  url = ""
-  icon = "fab fa-telegram"
+  name = "Facebook"
+  url = "https://www.facebook.com/opentestcon"
+  icon = "fab fa-facebook"
 
 # 06 section ticket ======================
 [ticket]
