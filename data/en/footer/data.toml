@@ -4,11 +4,11 @@ left_content = """
 copyright = "Copyright ©2019 Red Hat, Inc."
 
 [[links]]
-text = "Redhat"
+text = "Red Hat"
 url = "https://www.redhat.com/"
 
 [[links]]
-text = "Openshift"
+text = "OpenShift"
 url = "https://www.openshift.com/"
 
 [[links]]

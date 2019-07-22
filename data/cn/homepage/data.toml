@@ -13,7 +13,7 @@
 [summary]
   intro_q = "什么是Open TestCon 2020"
   intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-Open TestCon 2020是由Red Hat在北京举办的年度会议
+Open TestCon 是由 Red Hat 举办的技术会议，聚焦于测试相关话题。首届会议计划于2020年在北京举办。
 </p>
 <p class="rhTextMedium" style="line-height: normal;">
 我们致力营造一个开放和热情的测试领域大会。我们通过我们的 <a href="/cn/updates/2019-06-20/">行为准则</a> 和 <a href="/cn/updates/2019-06-19/">媒体政策</a>来保证对这些包容性行为的期望。</p>"""
@@ -38,29 +38,29 @@ Open TestCon 2020是由Red Hat在北京举办的年度会议
     [[summary.track.data]]
       name = "开放的混合云"
       intro = [
-"多云",
-"自动化",
-"OpenStack",
-"Kubernetes",
-"无主机服务",
-"微服务",
-"容器",
-"OpenShift/PaaS",
 "混合云管理",
+"多云",
+"Kubernetes",
+"无服务架构",
+"微服务",
+"服务网格",
+"OpenShift / PaaS",
 "Operators",
-"CNI",
+"容器",
+"容器网络接口",
+"OpenStack",
 "虚拟化",
 "内核",
-"Service Mesh",
+"自动化",
       ]
     [[summary.track.data]]
       name = "自动化测试工具"
 
       intro = [
 "Ansible",
-"Ceph",
 "Puppet",
 "Salt",
+"测试套件及框架",
 "pytest",
 "RobotFramework"
       ]
@@ -71,6 +71,7 @@ Open TestCon 2020是由Red Hat在北京举办的年度会议
       intro = [
 "云原生存储",
 "软件定义的存储",
+"Ceph",
 "存储管理",
 "分布式文件存储",
 "数据存储",
@@ -202,7 +203,7 @@ Open TestCon 2020是由Red Hat在北京举办的年度会议
   name = "现在注册"
   action = "注册"
   action_no = "敬请期待"
-  desc_no = "本次活动共有300个席位，欢迎报名参加"
+  desc_no = "本次活动席位有限，欢迎报名参加"
   url = "https://www.bagevent.com/event/5248348"
 
   [[ticket.tickets]]
