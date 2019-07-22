@@ -14,7 +14,7 @@
 
   intro_q = "What is Open TestCon?"
   intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-Open TestCon 2020 is the annual Conference organized by Red Hat in Beijng.
+Open TestCon is a Tech Conference organized by Red Hat, focus on testing related topics. The inaugural event will be hosted at Beijng, China in 2020.
 </p>
 <p class="rhTextMedium" style="line-height: normal;">
 We are committed to fostering an open and welcoming environment at our conference.
@@ -39,28 +39,28 @@ and are prepared to enforce these.</p>"""
     [[summary.track.data]]
       name = "OPEN HYBRID CLOUD"
       intro = [
+"Hybrid Cloud",
 "Multi-Cloud",
-"Automation",
-"OpenStack",
 "Kubernetes",
 "Serverless",
 "Microservices",
-"Containers",
-"OpenShift/ PaaS",
-"Hybrid Cloud Management",
+"Service Mesh",
+"OpenShift / PaaS",
 "Operators",
+"Containers",
 "CNI",
+"OpenStack",
 "Virtualization",
 "Kernel",
-"Service Mesh",
+"Automation",
       ]
     [[summary.track.data]]
       name = "Automation and Testing Tools"
       intro = [
 "Ansible",
-"Ceph",
 "Puppet",
 "Salt",
+"Testing suites / frameworks",
 "pytest",
 "RobotFramework"
       ]
@@ -70,6 +70,7 @@ and are prepared to enforce these.</p>"""
       intro = [
 "Cloud Native Storage",
 "Software Defined Storage",
+"Ceph",
 "Storage Management",
 "Distributed File System",
 "Datastores",
@@ -204,7 +205,7 @@ and are prepared to enforce these.</p>"""
   action = "NOW"
   action_no = "WILL BE OPEN SOON"
   url = "https://www.bagevent.com/event/5316168"
-  desc_no = "There are 300 seats in this meeting. Welcome to register."
+  desc_no = "Welcome to register, limited seats available."
 
   [[ticket.tickets]]
     price = "0 $"
