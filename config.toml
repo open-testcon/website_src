@@ -3,7 +3,7 @@ title = "Open Testcon"
 
 enableEmoji = true
 enableMissingTranslationPlaceholders = true
-enableGitInfo = true
+enableGitInfo = false
 disqusShortname = "alleleer"
 
 DefaultContentLanguage = "en"
