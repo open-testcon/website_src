@@ -55,14 +55,13 @@ and are prepared to enforce these.</p>"""
 "Automation",
       ]
     [[summary.track.data]]
-      name = "Automation and Testing Tools"
+      name = "Automation Tools"
       intro = [
 "Ansible",
+"Helm",
+"Terraform",
 "Puppet",
 "Salt",
-"Testing suites / frameworks",
-"pytest",
-"RobotFramework"
       ]
 
     [[summary.track.data]]
@@ -102,6 +101,8 @@ and are prepared to enforce these.</p>"""
     [[summary.track.data]]
       name = "Container Tooling"
       intro = [
+"Testing frameworks",
+"Container Tooling",
 "CI/CD",
 "DevOps",
 "Code Editors Cloud native IDE",
@@ -110,18 +111,17 @@ and are prepared to enforce these.</p>"""
 "Language Runtime",
 "Debugging/Tracing",
 "Open Automation Infrastructures",
-"Testing frameworks",
-"Products Integration testing",
-"Testing Microservices and Complex Environments",
 "Performance testing tools",
-"Agile testing methods"]
+      ]
 
     [[summary.track.data]]
       name = "Testing Essentials"
       intro = [
 "Products Integration testing",
 "Testing Microservices and Complex Environments",
-"Testing Methodologies, Test Metrics",
+"Testing Methodologies",
+"Agile testing methods",
+"Test Metrics",
 "Test Management",
 "Test Automation",
 "Test Techniques",
