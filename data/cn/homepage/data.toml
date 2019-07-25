@@ -12,11 +12,13 @@
 # 02 section summary ======================
 [summary]
   intro_q = "什么是Open TestCon 2020"
-  intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-Open TestCon 是由 Red Hat 举办的技术会议，聚焦于测试相关话题。首届会议计划于2020年在北京举办。
-</p>
-<p class="rhTextMedium" style="line-height: normal;">
-我们致力营造一个开放和热情的测试领域大会。我们通过我们的 <a href="/cn/updates/2019-06-20/">行为准则</a> 和 <a href="/cn/updates/2019-06-19/">媒体政策</a>来保证对这些包容性行为的期望。</p>"""
+  intro_a = """
+
+"""
+  intro_a_full = """
+
+
+"""
 
   participants = 300
   sessions = 20

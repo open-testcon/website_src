@@ -8,6 +8,6 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 
 
-[*.{html,md,css,toml,yml}]
+[*.{html,md,css,toml,yml,js}]
 indent_style = space
 indent_size = 2

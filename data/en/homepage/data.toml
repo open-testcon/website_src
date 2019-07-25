@@ -13,13 +13,22 @@
 [summary]
 
   intro_q = "What is Open TestCon?"
-  intro_a = """<p class="rhTextMedium" style="line-height: normal;">
-Open TestCon is a Tech Conference organized by Red Hat, focus on testing related topics. The inaugural event will be hosted at Beijng, China in 2020.
-</p>
-<p class="rhTextMedium" style="line-height: normal;">
+  intro_a = """
+OpenTestCon is a software testing event hosted by Red Hat.
+This event is a catalyst for discussions on a broad range of topics centering around technology testing;
+from test automation and the development of tooling, to quality standards, processes and metrics.
+"""
+  intro_a_full = """
+This open event focuses on “Quality is everyone’s responsibility” and will be held in Beijing,
+China in March, 2020.
+
+The expected audience includes professionals of all levels who are interested
+in sharing ideas and knowledge around Testing and Quality.
+
 We are committed to fostering an open and welcoming environment at our conference.
 We are setting expectations for inclusive behavior through our <a href="/updates/2019-06-20">Code Of Conduct</a> and <a href="/updates/2019-06-19">Media Policies</a>,
-and are prepared to enforce these.</p>"""
+and are prepared to enforce these.
+"""
   participants = 300
   sessions = 20
   days = 2
