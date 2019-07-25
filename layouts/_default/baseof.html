@@ -55,7 +55,8 @@
   </footer>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="/js/site.js"></script>
+  {{ $site := resources.Get "js/site.js" | resources.Minify }}
+  <script src="{{ $site.RelPermalink }}"></script>
 </body>
 
 </html>
