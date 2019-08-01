@@ -1,5 +1,5 @@
 +++
-title = "Call for the paper"
+title = "Call for paper"
 date = "2019-07-25"
 +++
 

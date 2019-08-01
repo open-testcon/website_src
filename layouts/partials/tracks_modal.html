@@ -12,7 +12,11 @@
           {{ range .data }}
           {{/*  <li style="list-style-type: square">{{ . }}</li> */}}
           <li>
-            <div class="collapsible-header">{{ .name | upper }}</div>
+            <div class="collapsible-header">
+
+              <i class="far fa-hand-point-right"></i>{{- .name | upper -}}
+
+            </div>
             <div class="collapsible-body left-align">
               <ul>
                 {{ range .intro }}

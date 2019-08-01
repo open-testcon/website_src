@@ -105,10 +105,10 @@ and are prepared to enforce these.
 
 
   [[summary.track]]
-    name = "Testing TOOL"
+    name = "Testing Technology"
 
     [[summary.track.data]]
-      name = "Container Tooling"
+      name = "Testing Tools"
       intro = [
 "Testing frameworks",
 "Container Tooling",

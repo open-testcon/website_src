@@ -5,9 +5,7 @@ date = "2019-06-20"
 
 #### Our Pledge
 
-In the interest of fostering an open and welcoming environment, we as speakers, attendees and organizers at Open-TestCon pledge to making participation in our event and community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
-
-<!--more-->
+In the interest of fostering an open and welcoming environment, we as speakers, attendees and organizers at Open-TestCon pledge to making participation in our event and community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 #### Our Standards
 
