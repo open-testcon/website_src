@@ -14,7 +14,7 @@
 
   intro_q = "What is Open TestCon?"
   intro_a = """
-OpenTestCon is a software testing event hosted by Red Hat.
+Open TestCon is a software testing event hosted by Red Hat.
 This event is a catalyst for discussions on a broad range of topics centering around technology testing;
 from test automation and the development of tooling, to quality standards, processes and metrics.
 """
