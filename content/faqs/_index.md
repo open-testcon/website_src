@@ -16,7 +16,7 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "Where and when is Open TestCon 2020?" >}}
 
-> Open TestCon 2019 will be in Beijing, China in March, 2020. Venue will be Landmark Towers Convention Center, No 8, North Dongsanhuan Road, Chaoyang District, Beijing, China.
+> Open TestCon 2020 will be in Beijing, China in March, 2020. Venue will be Landmark Towers Convention Center, No 8, North Dongsanhuan Road, Chaoyang District, Beijing, China.
 
 {{< faqs/qa-question "Who should attend Open TestCon?" >}}
 
