@@ -31,7 +31,7 @@ OpenTestCon是由Red Hat举办的软件测试技术会议。本次会议聚焦�
   tracks = 5
 
   [[summary.track]]
-    name = "Trending Tech In Testing"
+    name = "前沿的测试技术"
     intro = """
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -40,43 +40,29 @@ It has survived not only five centuries, but also the leap into electronic types
   """
 
   [[summary.track]]
-    name = "OPEN HYBRID CLOUD"
+    name = "开放混合云"
     intro = """
-Open hybrid clouds are a type of enterprise IT architecture made up of open source software that
-lets users write an application in one environment—such as a private or public cloud,
-physical machine, or virtual infrastructure―and deploy it in any other environment.
-In this track we will explore automation and orchestration in this context,
-as well as ways to ensure high quality infrastructure, and development and management tools across the various environments.
+开放式混合云是一种由开源软件组成的企业IT架构，允许用户在一个环境中编写应用程序，例如私有云或公共云，物理机或虚拟基础架构，并在任何其他环境中部署它。在这个会场中，我们将在此背景下探索自动化和编排，以及确保各种环境中的高质量基础设施和开发和管理工具的方法。
     """
 
 
   [[summary.track]]
-    name = "Testing Tools"
+    name = "测试工具"
     intro = """
-There are tons of software testing tools available in the market, and with the overabundance of choices out there,
-it becomes difficult to zero in on the best one for your projects.
-Fortunately for you, in this track, it is a chance to exchange ideas
-around how Testers have used many different software testing tools to
-improve their processes and help their teams deliver high-quality to their customers.
-In this track we welcome presentations and workshops on tooling and processes in CI/CD, Automation,
-Agile test methods, testing complex solutions and technology.
+市场上有大量的软件测试工具，而且由于选择过多，很难将最好的项目归零。幸运的是，在这个会场中，您可以就测试人员如何使用许多不同的软件测试工具来改进他们的流程并帮助他们的团队为客户提供高质量的产品交换意见。在这个会场中，我们欢迎有关CI/CD中工具和流程，自动化，敏捷测试方法，测试复杂解决方案和技术的演讲和研讨会。
     """
 
 
   [[summary.track]]
-    name = "FOSS COMMUNITY & STANDARDS"
+    name = "FOSS社区和标准"
     intro = """
-Free and Open Source Community and Standards topics may include (but are not limited to)  Community Trends,
-Governance, Licensing, Participation, Leadership, Agile, Open Testing Methodologies and Techniques
+免费和开源社区和标准主题可能包括（但不限于）社区趋势，治理，许可，参与，领导，敏捷，开放测试方法和技术。
     """
 
   [[summary.track]]
-    name = "Security & Data Privacy"
+    name = "数据安全和隐私"
     intro = """
-This track is targeted for security testing & data privacy.
-In this track the focus will be on security testing, tools for security testing,
-embedding security testing in CI/CD pipeline and Data Privacy for SaaS based applications
-or Hybrid applications that span across on-premise and multi-cloud.
+此会场主要针对安全测试和数据隐私。在这个会场中，重点将放在安全测试，安全测试工具，在CI/CD中嵌入安全测试和基于SaaS的应用程序的数据隐私或跨越内部部署和多云的混合应用程序。
     """
 
 [video]
