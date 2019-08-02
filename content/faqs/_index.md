@@ -58,19 +58,17 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "What tracks are being included in Open TestCon?" >}}
 
-> Following tracks are included -
+> Following suggested topics are included -
 <br>
-> a. Cutting Edge
+> a. Trending Tech in Testing
 <br>
 > b. Open Hybrid Cloud
 <br>
-> c. Security & Data Privacy
-<br>
 > d. Testing Tools
 <br>
-> e. Testing Essentials
-<br>
 > f. FOSS Community & Standards
+<br>
+> c. Security & Data Privacy
 <br>
 > g. Other
 
