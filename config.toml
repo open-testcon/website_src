@@ -4,7 +4,7 @@ title = "Open TestCon"
 enableEmoji = true
 enableMissingTranslationPlaceholders = true
 enableGitInfo = false
-disqusShortname = "alleleer"
+disqusShortname = ""
 
 DefaultContentLanguage = "en"
 
