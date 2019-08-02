@@ -2,34 +2,28 @@
 
   <div class="modal-content">
     <div class="row">
-      {{ range . }}
-      <div class="col l4 s12 center">
-        <h6 class="rhDisplayBold">{{ .name | upper }}</h6>
-
+      {{ range first 4 . }}
+      <div class="col l3 s12 center">
+        <h5 class="rhDisplayBold">{{ .name | upper }}</h5>
         <br>
+        <div class="card-panel z-depth-2 rhTextBold" style="text-align: justify;">
+          {{ .intro }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
 
-        <ul class="collapsible popout">
-          {{ range .data }}
-          {{/*  <li style="list-style-type: square">{{ . }}</li> */}}
-          <li>
-            <div class="collapsible-header">
+    <div class="divider"></div>
+    <br>
 
-              <i class="far fa-hand-point-right"></i>{{- .name | upper -}}
-
-            </div>
-            <div class="collapsible-body left-align">
-              <ul>
-                {{ range .intro }}
-                <li style="list-style-type: square;">{{ . }}</li>
-                {{ end }}
-              </ul>
-            </div>
-          </li>
-
-
-          {{ end }}
-        </ul>
-
+    <div class="row">
+      {{ range last 1 . }}
+      <div class="col l3 s12 center">
+        <h5 class="rhDisplayBold">{{ .name | upper }}</h5>
+        <br>
+        <div class="card-panel z-depth-2 rhTextBold" style="text-align: justify;">
+          {{ .intro }}
+        </div>
       </div>
       {{ end }}
     </div>

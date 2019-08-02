@@ -28,135 +28,56 @@ OpenTestCon是由Red Hat举办的软件测试技术会议。本次会议聚焦�
   participants = 300
   sessions = 20
   days = 2
-  tracks = 3
+  tracks = 5
 
   [[summary.track]]
+    name = "Trending Tech In Testing"
+    intro = """
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only five centuries, but also the leap into electronic typesetting
+  """
 
-    name = "测试领域的流行技术"
-
-    [[summary.track.data]]
-      name = "前沿技术"
-      intro = [
-"人工智能",
-"机器学习",
-"区块链",
-"物联网",
-"移动通信"]
-    [[summary.track.data]]
-      name = "开放的混合云"
-      intro = [
-"混合云管理",
-"多云",
-"Kubernetes",
-"无服务架构",
-"微服务",
-"服务网格",
-"OpenShift / PaaS",
-"Operators",
-"容器",
-"容器网络接口",
-"OpenStack",
-"虚拟化",
-"内核",
-"自动化",
-      ]
-    [[summary.track.data]]
-      name = "自动化工具"
-
-      intro = [
-"Ansible",
-"Helm",
-"Terraform",
-"Puppet",
-"Salt",
-      ]
-
-    [[summary.track.data]]
-
-      name = "存储和网络测试"
-      intro = [
-"云原生存储",
-"软件定义的存储",
-"Ceph",
-"存储管理",
-"分布式文件存储",
-"数据存储",
-"大数据",
-"网络功能虚拟化",
-"DPDK",
-"ODL",
-"软件定义网络"
-      ]
-
-    [[summary.track.data]]
-      name = "数据安全和隐私"
-      intro = [
-"应用安全",
-"安全的软件开发和测试",
-"安全应用设计",
-"安全配置",
-"容器化",
-"身份管理",
-"数据隐私政策实施和检查",
-"不同的方法测试应用策略实施",
-"道德黑客在应用程序出现之前发现应用程序中的缺陷"
-
-      ]
+  [[summary.track]]
+    name = "OPEN HYBRID CLOUD"
+    intro = """
+Open hybrid clouds are a type of enterprise IT architecture made up of open source software that
+lets users write an application in one environment—such as a private or public cloud,
+physical machine, or virtual infrastructure―and deploy it in any other environment.
+In this track we will explore automation and orchestration in this context,
+as well as ways to ensure high quality infrastructure, and development and management tools across the various environments.
+    """
 
 
   [[summary.track]]
-    name = "测试技术"
+    name = "Testing Tools"
+    intro = """
+There are tons of software testing tools available in the market, and with the overabundance of choices out there,
+it becomes difficult to zero in on the best one for your projects.
+Fortunately for you, in this track, it is a chance to exchange ideas
+around how Testers have used many different software testing tools to
+improve their processes and help their teams deliver high-quality to their customers.
+In this track we welcome presentations and workshops on tooling and processes in CI/CD, Automation,
+Agile test methods, testing complex solutions and technology.
+    """
 
-    [[summary.track.data]]
-      name = "测试工具"
-      intro = [
-"测试框架",
-"容器化工具",
-"持续开发和持续集成",
-"运维开发",
-"云原生代码编辑器IDE",
-"命令行",
-"容器化的本地开发",
-"开发语言运行时",
-"调试/跟踪",
-"开放式自动化基础设施",
-"性能测试工具",
-"敏捷测试方法"
-      ]
-
-    [[summary.track.data]]
-      name = "测试精要"
-      intro = [
-"产品集成测试",
-"复杂环境的微服务测试",
-"测试方法",
-"敏捷测试方法",
-"测量指标",
-"测试管理",
-"测试自动化",
-"测试技术",
-"性能测试",
-"敏捷测试",
-"测试的职业发展",
-"测试的最佳实践",
-"测试文化和领导力"
-      ]
 
   [[summary.track]]
-    name = "FOSS社区和标准"
+    name = "FOSS COMMUNITY & STANDARDS"
+    intro = """
+Free and Open Source Community and Standards topics may include (but are not limited to)  Community Trends,
+Governance, Licensing, Participation, Leadership, Agile, Open Testing Methodologies and Techniques
+    """
 
-
-    [[summary.track.data]]
-      name = "general lists"
-      intro = [
-"社区趋势",
-"社区管理",
-"社区许可",
-"社区参与",
-"领导力",
-"敏捷",
-"开放测试方法和技术"
-      ]
+  [[summary.track]]
+    name = "Security & Data Privacy"
+    intro = """
+This track is targeted for security testing & data privacy.
+In this track the focus will be on security testing, tools for security testing,
+embedding security testing in CI/CD pipeline and Data Privacy for SaaS based applications
+or Hybrid applications that span across on-premise and multi-cloud.
+    """
 
 [video]
 

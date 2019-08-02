@@ -8,7 +8,7 @@ other = "Days"
 other = "Sessions"
 
 [tracks]
-other = "Tracks"
+other = "Topics"
 
 [venue]
 other = "The Venue"

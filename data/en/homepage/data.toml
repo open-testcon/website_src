@@ -32,130 +32,56 @@ and are prepared to enforce these.
   participants = 300
   sessions = 20
   days = 2
-  tracks = 3
+  tracks = 5
 
   [[summary.track]]
     name = "Trending Tech In Testing"
+    intro = """
+Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+It has survived not only five centuries, but also the leap into electronic typesetting
+  """
 
-    [[summary.track.data]]
-      name = "cutting edge"
-      intro = [
-"Artificial Intelligence",
-"Machine Learning",
-"BlockChain",
-"IoT",
-"Mobile"]
-    [[summary.track.data]]
-      name = "OPEN HYBRID CLOUD"
-      intro = [
-"Hybrid Cloud",
-"Multi-Cloud",
-"Kubernetes",
-"Serverless",
-"Microservices",
-"Service Mesh",
-"OpenShift / PaaS",
-"Operators",
-"Containers",
-"CNI",
-"OpenStack",
-"Virtualization",
-"Kernel",
-"Automation",
-      ]
-    [[summary.track.data]]
-      name = "Automation Tools"
-      intro = [
-"Ansible",
-"Helm",
-"Terraform",
-"Puppet",
-"Salt",
-      ]
-
-    [[summary.track.data]]
-      name = "STORAGE AND NETWORKING Testing"
-      intro = [
-"Cloud Native Storage",
-"Software Defined Storage",
-"Ceph",
-"Storage Management",
-"Distributed File System",
-"Datastores",
-"Big Data",
-"NFV/ VNF",
-"DPDK",
-"ODL",
-"Software Defined Network",
-      ]
-
-    [[summary.track.data]]
-      name = "Security & Data Privacy"
-      intro = [
-"Application (hosted and on premise) Security",
-"secure software development and testing",
-"secure application design",
-"secure configurations",
-"containerization",
-"IDM (Identity Management stack)",
-"Data Privacy Policies Implementation and check including GDPR",
-"different ways to test the applications have implemented the policies",
-"Ethical hacking to find flaws in the applications before it hit the public",
-      ]
+  [[summary.track]]
+    name = "OPEN HYBRID CLOUD"
+    intro = """
+Open hybrid clouds are a type of enterprise IT architecture made up of open source software that
+lets users write an application in one environment—such as a private or public cloud,
+physical machine, or virtual infrastructure―and deploy it in any other environment.
+In this track we will explore automation and orchestration in this context,
+as well as ways to ensure high quality infrastructure, and development and management tools across the various environments.
+    """
 
 
   [[summary.track]]
-    name = "Testing Technology"
+    name = "Testing Tools"
+    intro = """
+There are tons of software testing tools available in the market, and with the overabundance of choices out there,
+it becomes difficult to zero in on the best one for your projects.
+Fortunately for you, in this track, it is a chance to exchange ideas
+around how Testers have used many different software testing tools to
+improve their processes and help their teams deliver high-quality to their customers.
+In this track we welcome presentations and workshops on tooling and processes in CI/CD, Automation,
+Agile test methods, testing complex solutions and technology.
+    """
 
-    [[summary.track.data]]
-      name = "Testing Tools"
-      intro = [
-"Testing frameworks",
-"Container Tooling",
-"CI/CD",
-"DevOps",
-"Code Editors Cloud native IDE",
-"CLI",
-"Local Development for Containers",
-"Language Runtime",
-"Debugging/Tracing",
-"Open Automation Infrastructures",
-"Performance testing tools",
-      ]
-
-    [[summary.track.data]]
-      name = "Testing Essentials"
-      intro = [
-"Products Integration testing",
-"Testing Microservices and Complex Environments",
-"Testing Methodologies",
-"Agile testing methods",
-"Test Metrics",
-"Test Management",
-"Test Automation",
-"Test Techniques",
-"Performance Testing",
-"Agile Testing",
-"Career in Testing",
-"Best Practices in Testing",
-"Testing culture and leadership",
-      ]
 
   [[summary.track]]
     name = "FOSS COMMUNITY & STANDARDS"
+    intro = """
+Free and Open Source Community and Standards topics may include (but are not limited to)  Community Trends,
+Governance, Licensing, Participation, Leadership, Agile, Open Testing Methodologies and Techniques
+    """
 
-    [[summary.track.data]]
-      name = "general lists"
-      intro = [
-"Community Trends",
-"Governance",
-"Licensing",
-"Participation",
-"Leadership",
-"Agile",
-"Open Testing Methodologies and Technique"
-      ]
-
+  [[summary.track]]
+    name = "Security & Data Privacy"
+    intro = """
+This track is targeted for security testing & data privacy.
+In this track the focus will be on security testing, tools for security testing,
+embedding security testing in CI/CD pipeline and Data Privacy for SaaS based applications
+or Hybrid applications that span across on-premise and multi-cloud.
+    """
 
 # 03 section video ======================
 [video]
