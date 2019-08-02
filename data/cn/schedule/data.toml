@@ -1,7 +1,7 @@
 [schedule]
 
   released = false
-  released_date = "2019-12-12T00:12:12+08:00"
+  released_date = "2020-01-30T00:12:12+08:00"
 
   desc_01 = "会议日程将会发布于"
   desc_02 = "离发布还有"
