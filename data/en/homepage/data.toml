@@ -37,10 +37,10 @@ and are prepared to enforce these.
   [[summary.track]]
     name = "Trending Tech In Testing"
     intro = """
-Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-It has survived not only five centuries, but also the leap into electronic typesetting
+The adoption of Agile and DevOps practices have made Quality Engineering a linchpin to Continuous Productization.
+This topic is about how Organisations are gaining insights into product quality, by adopting trending technologies
+like Artificial Intelligence, Machine Learning, BlockChain, IOT, BigData, Digital Twin, Mobile into the Test Strategy
+and Techniques. We welcome papers on leveraging trending technologies in enhancing customer satisfaction and product development.
   """
 
   [[summary.track]]
@@ -49,7 +49,7 @@ It has survived not only five centuries, but also the leap into electronic types
 Open hybrid clouds are a type of enterprise IT architecture made up of open source software that
 lets users write an application in one environment—such as a private or public cloud,
 physical machine, or virtual infrastructure―and deploy it in any other environment.
-In this track we will explore automation and orchestration in this context,
+In this topic we will explore automation and orchestration in this context,
 as well as ways to ensure high quality infrastructure, and development and management tools across the various environments.
     """
 
@@ -59,10 +59,10 @@ as well as ways to ensure high quality infrastructure, and development and manag
     intro = """
 There are tons of software testing tools available in the market, and with the overabundance of choices out there,
 it becomes difficult to zero in on the best one for your projects.
-Fortunately for you, in this track, it is a chance to exchange ideas
+Fortunately for you, in this topic, it is a chance to exchange ideas
 around how Testers have used many different software testing tools to
 improve their processes and help their teams deliver high-quality to their customers.
-In this track we welcome presentations and workshops on tooling and processes in CI/CD, Automation,
+In this topic we welcome presentations and workshops on tooling and processes in CI/CD, Automation,
 Agile test methods, testing complex solutions and technology.
     """
 
@@ -77,8 +77,8 @@ Governance, Licensing, Participation, Leadership, Agile, Open Testing Methodolog
   [[summary.track]]
     name = "Security & Data Privacy"
     intro = """
-This track is targeted for security testing & data privacy.
-In this track the focus will be on security testing, tools for security testing,
+This topic is targeted for security testing & data privacy.
+In this topic the focus will be on security testing, tools for security testing,
 embedding security testing in CI/CD pipeline and Data Privacy for SaaS based applications
 or Hybrid applications that span across on-premise and multi-cloud.
     """
