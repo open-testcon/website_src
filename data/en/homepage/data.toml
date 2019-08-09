@@ -2,7 +2,7 @@
 [meeting]
   name = "Open TestCon"
   start_date = "March 30-31, 2020"
-  location = "Landmark Towers Convention Center, Beijing, China"
+  location = "Beijing, China"
   register_open = false
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PRESENTATION"

@@ -14,4 +14,4 @@
 
 <!-- {{< homepage/04-speaker >}} -->
 
-{{< homepage/07-location >}}
+<!-- {{< homepage/07-location >}} -->
