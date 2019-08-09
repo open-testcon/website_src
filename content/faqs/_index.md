@@ -10,39 +10,33 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "What is Open TestCon?" >}}
 
-> OpenTestCon is a software testing event hosted by Red Hat. This event is a catalyst for discussions on a broad range of topics centering around technology testing; from test automation and the development of tooling, to quality standards, processes and metrics.
+> Open TestCon is a software testing event hosted by Red Hat. This event is a catalyst for discussions on a broad range of topics centering around technology testing: everything from test automation and the development of tooling to quality standards, processes, and metrics.
 <br>
-> This open event focuses on “Quality is everyone’s responsibility”
+> “Quality is everyone’s responsibility” is the event theme.
 
 {{< faqs/qa-question "Where and when is Open TestCon 2020?" >}}
 
-> Open TestCon 2020 will be in Beijing, China in March, 2020. Venue will be Landmark Towers Convention Center, No 8, North Dongsanhuan Road, Chaoyang District, Beijing, China.
+> Open TestCon 2019 is in Beijing, China, March 30-31, 2020. The venue is Landmark Towers Convention Center, No 8, North Dongsanhuan Road, Chaoyang District, Beijing, China.
 
 {{< faqs/qa-question "Who should attend Open TestCon?" >}}
 
-> Expected audience includes Software Technology professionals of all levels who are interested in sharing ideas and knowledge around Testing and Quality.
+> Our expected audience includes software technology professionals of all levels who are interested in sharing ideas and knowledge around testing and quality.
 
 {{< faqs/qa-question "Is Open TestCon is just for testers?" >}}
 
-> Not at all, this we welcome everyone who can contribute in a discussion which is focused on Quality. We surely need all kinds of participants as Quality is not a topic which is limited to QE anymore. Development, Support and Operation teams are as much needed for the Product quality as testers.
-
-{{< faqs/qa-question "How can I attend Open TestCon?" >}}
-
-> Please submit a paper and register for the event. Please check our website for additional information on submitting a paper and how to register.
-<br>
-> [https://opentestcon.org/](https://opentestcon.org/)
+> Not at all. We welcome everyone who can contribute to a discussion  focused on quality. We need all kinds of participants, because quality is not a topic that is limited to QE anymore. For product quality, we need development, support and operations teams as much as testers.
 
 {{< faqs/qa-question "Does Open TestCon have a code of conduct?" >}}
 
-> Open TestCon expects attendees to conduct themselves professionally and respectfully. [Here](https://opentestcon.org/updates/coc/) is our code of conduct. If you need assistance relating to the conduct of an attendee, please contact the Open TestCon event team at {{< other/email >}}
+> Open TestCon expects attendees to conduct themselves professionally and respectfully. Read [our code of conduct](https://opentestcon.org/updates/coc/) for details. If you need assistance related to the conduct of an attendee, contact the Open TestCon event team at {{< other/email >}}
 
 {{< faqs/qa-question "I require a visa invitation letter. How can I get one?" >}}
 
 > Send an email stating that you need to obtain a visa invitation letter to {{< other/email >}}
 
-{{< faqs/qa-question "How do I get answers to questions that aren’t covered on this page?" >}}
+{{< faqs/qa-question "Additional questions?" >}}
 
-> You can contact us via email at {{< other/email >}}
+> If you have more questions that are not covered in this FAQ, contact us via email at {{< other/email >}}
 
 <br>
 
@@ -50,15 +44,13 @@ disqus_identifier = ""
 
 ---
 
-{{< faqs/qa-question "Where I can submit my paper for Open TestCon?" >}}
+{{< faqs/qa-question "Where can I submit my paper for Open TestCon?" >}}
 
-> Please use our CFP portal to submit your paper
-<br>
-> https://cfp.opentestcon.org/login
+> Use our call for papers [portal](https://cfp.opentestcon.org) to submit your paper
 
-{{< faqs/qa-question "What tracks are being included in Open TestCon?" >}}
+{{< faqs/qa-question "What topic are part of Open TestCon?" >}}
 
-> Following suggested topics are included -
+> Open TestCon has the following topics:
 <br>
 > a. Trending Tech in Testing
 <br>
@@ -70,31 +62,35 @@ disqus_identifier = ""
 <br>
 > c. Security & Data Privacy
 <br>
-> g. Other
+> g. Miscellaneous
 
-{{< faqs/qa-question "What session types are included in Open TestCon?" >}}
+{{< faqs/qa-question "What session types are there at Open TestCon?" >}}
 
-> Talk: Standard presentation, default 30min (include maximum 20min presentation, 5min Q&A), 60min (include maximum 50min presentation, 5min Q&A). 5 minutes allowed for attendees to proceed to their next presentation.
+> Standard presentations. Talk length includes a 5-minute gap between presentations to give attendees time to move to the next talk.
 <br>
-> Keynote: High-profile talk intended to be of interest to everyone at the conference. Presentation can range between 30 -60 minutes.
+> - Short presentation: default 30 minutes (20-minute presentation, 5-minute Q&A)
+<br>
+> - Long presentation: 60 minutes (50-minute presentation, 5-minute Q&A)
+<br>
+> Keynote: High-profile talks intended to be of interest to everyone at the conference. Presentations can range from 30-60 minutes.
 <br>
 > Workshop: Guided workshop, default 60min. With brief opening presentation, then guided step on step hands-on. Required to bring own laptops.
 
 {{< faqs/qa-question "Can I submit more than one paper?" >}}
 
-> One can submit maximum 2 papers and not more than 2.
+> You can submit a maximum of two (2) papers.
 
-{{< faqs/qa-question "How to edit my proposal(s)?" >}}
+{{< faqs/qa-question "How do I edit my proposal(s)?" >}}
 
-> Once you have submitted your proposal(s), you’ll be able to find it by clicking the “My proposals” button on the navbar on the left side of the page, all the proposal(s) you submitted will be listed here, and you can click the “Edit” link on any proposal(s) to make your modifications.
+> Once you have submitted your proposal(s), you can still make changes to it until October 31, 2019. Click the “My proposals” button on the navbar on the left side of the page. All the proposal(s) that you submitted are listed there. To make changes, click the “Edit” link on any proposal(s).
 
-{{< faqs/qa-question "Do I need to submit complete slides with CfP?" >}}
+{{< faqs/qa-question "Do I need to submit complete slides with the CFP?" >}}
 
-> No, proposal submissions don't need to include completed slides.
+> No, proposal submissions do not need to include completed slides.
 
 {{< faqs/qa-question "We have one proposal from multiple speakers, is it allowed?" >}}
 
-> Yes, you can have multiple speakers per proposal (2 maximum, including the primary speaker).
+> Yes, you can have multiple speakers for your proposal (two speakers maximum, including the primary speaker).
 
 <br>
 
@@ -102,29 +98,29 @@ disqus_identifier = ""
 
 ---
 
-{{< faqs/qa-question "When will registration open?" >}}
+{{< faqs/qa-question "When does registration open?" >}}
 
-> Registration will open on 1st November, 2019.
+> Registration opens on November 1, 2019.
 
 {{< faqs/qa-question "How do I register?" >}}
 
-> Please register using our site [https://opentestcon.org/](https://opentestcon.org/)
+> Register at the [Open TestCon website](https://opentestcon.org/).
 
-{{< faqs/qa-question "How much does registration cost for Open TestCon?" >}}
+{{< faqs/qa-question "How much is registration for Open TestCon?" >}}
 
-> This is a free event to attend for speakers and attendees who are registered with us.
+> Open TestCon is free for speakers and attendees who register with us.
 
-{{< faqs/qa-question "What's included in a full conference pass?" >}}
+{{< faqs/qa-question "What is included in a full-conference pass?" >}}
 
-> All sessions, lunch and one evening event.
+> All sessions, lunch, and one evening event are all included.
 
 {{< faqs/qa-question "May I bring a guest with me to the conference?" >}}
 
-> This event is registration based only.
+> Only registered attendees can attend Open TestCon. Any guests must register to attend.
 
 {{< faqs/qa-question "Can I transfer my registration pass to someone else if I can no longer attend?" >}}
 
-> If you are no longer able to attend or present, please contact us @ {{< other/email >}}
+> If you are no longer able to attend or present, contact us at {{< other/email >}}
 
 <br><br>
 
