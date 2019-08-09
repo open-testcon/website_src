@@ -3,14 +3,17 @@ title = "Call for paper"
 date = "2019-07-25"
 +++
 
-#### Open TestCon CfP is now open!!
+#### The Open TestCon call for papers is now open!
 
-##### Submit your proposal [here](https://cfp.opentestcon.org)
+##### Submit your proposal on [our website](https://cfp.opentestcon.org)
 
-##### CFP ends on _October 31st, 2019_
+##### The CFP deadline is October 31st, 2019
 
-**Calling everyone who wants to share knowledge on Testing!
-Submit a presentation to share your ideas and work, or come and
+**Calling all professionals who want to share their knowledge of testing!**
+
+**Submit a presentation to share your ideas and work, or come and
 listen to what others are contributing to quality in IT!**
 
-For any questions, contact us {{< other/email >}}
+For more detailed information about Open TestCon, see the [conference website](https://opentestcon.org)
+
+Questions? Contact us {{< other/email >}}

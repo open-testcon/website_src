@@ -15,15 +15,13 @@
   intro_q = "What is Open TestCon?"
   intro_a = """
 Open TestCon is a software testing event hosted by Red Hat.
-This event is a catalyst for discussions on a broad range of topics centering around technology testing;
-from test automation and the development of tooling, to quality standards, processes and metrics.
+This event is a catalyst for discussions on a broad range of topics centering around technology testing:
+everything from test automation and the development of tooling to quality standards, processes, and metrics.
 """
   intro_a_full = """
-This open event focuses on “Quality is everyone’s responsibility” and will be held in Beijing,
-China in March, 2020.
+“Quality is everyone’s responsibility” is the event theme. It will be held in Beijing, China, March 30-31, 2020.
 
-The expected audience includes professionals of all levels who are interested
-in sharing ideas and knowledge around Testing and Quality.
+The expected audience includes professionals of all levels who are interested in sharing ideas and knowledge related to testing and quality.
 
 We are committed to fostering an open and welcoming environment at our conference.
 We are setting expectations for inclusive behavior through our <a href="/updates/coc/">Code Of Conduct</a> and <a href="/updates/media-policy/">Media Policies</a>,
@@ -70,8 +68,10 @@ Agile test methods, testing complex solutions and technology.
   [[summary.track]]
     name = "FOSS COMMUNITY & STANDARDS"
     intro = """
-Free and Open Source Community and Standards topics may include (but are not limited to)  Community Trends,
-Governance, Licensing, Participation, Leadership, Agile, Open Testing Methodologies and Techniques
+Open unlocks the world’s potential.
+Free or Open Source Communities and standards (FOSS) has a great contribution in building the foundation of software industry much more stronger than ever.
+Open TestCon event is also based on FOSS standards and we welcome everyone who wants to share their knowledge on FOSS Community Trends,
+Governance, Licensing, Participation, Leadership, Agile, Open Testing Methodologies and Techniques.
     """
 
   [[summary.track]]
