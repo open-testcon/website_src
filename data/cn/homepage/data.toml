@@ -5,7 +5,7 @@
   location = "北京， 中国"
   register_open = false
   btn_1 = "现在注册"
-  btn_2 = "提交您的主题"
+  btn_2 = "提交您的投搞"
   cfp_url = "https://cfp.opentestcon.org/"
   register_url = "https://www.bagevent.com/event/5248348"
 
@@ -26,7 +26,7 @@ Open TestCon是由Red Hat举办的软件测试技术会议。本次会议聚焦�
 """
 
   participants = 300
-  sessions = 20
+  sessions = 50
   days = 2
   tracks = 5
 
