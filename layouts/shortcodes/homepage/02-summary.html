@@ -8,12 +8,12 @@
         <div class="icon-block">
           <h2 class="center brown-text"><i class="material-icons">live_help</i></h2>
           <h5 class="center rhDisplayBlack">{{ .intro_q }}</h5>
-          <div class="rhTextBold" style="text-align: justify;">
+          <div class="rhTextBold">
             {{ .intro_a }}
           </div>
           <button class="red white-text" id="summary_more">more...</button>
           <br>
-          <div class="rhTextBold" style="text-align: justify; display:none" id="summary_intro">
+          <div class="rhTextBold" style="display:none" id="summary_intro">
             {{ .intro_a_full | safeHTML }}
           </div>
 

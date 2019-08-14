@@ -3,10 +3,10 @@
   <div class="modal-content">
     <div class="row">
       {{ range first 4 . }}
-      <div class="col l3 s12 center">
+      <div class="col l3 s12">
         <h5 class="rhDisplayBold">{{ .name | upper }}</h5>
         <br>
-        <div class="card-panel z-depth-2 rhTextBold" style="text-align: justify;">
+        <div class="card-panel z-depth-2 rhTextBold">
           {{ .intro }}
         </div>
       </div>
@@ -18,10 +18,10 @@
 
     <div class="row">
       {{ range last 1 . }}
-      <div class="col l3 s12 center">
+      <div class="col l3 s12">
         <h5 class="rhDisplayBold">{{ .name | upper }}</h5>
         <br>
-        <div class="card-panel z-depth-2 rhTextBold" style="text-align: justify;">
+        <div class="card-panel z-depth-2 rhTextBold">
           {{ .intro }}
         </div>
       </div>
