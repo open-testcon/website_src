@@ -112,7 +112,7 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "What is included in a full-conference pass?" >}}
 
-> All sessions, lunch, and one evening event are all included.
+> All sessions and lunch are all included.
 
 {{< faqs/qa-question "May I bring a guest with me to the conference?" >}}
 
