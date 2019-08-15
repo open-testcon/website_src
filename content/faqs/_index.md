@@ -94,7 +94,7 @@ disqus_identifier = ""
 
 <br>
 
-<h3 class="rhTextBold">Registration and pricing</h3>
+<h3 class="rhTextBold">Registration</h3>
 
 ---
 
@@ -105,10 +105,6 @@ disqus_identifier = ""
 {{< faqs/qa-question "How do I register?" >}}
 
 > Register at the [Open TestCon website](https://opentestcon.org/).
-
-{{< faqs/qa-question "How much is registration for Open TestCon?" >}}
-
-> Open TestCon is free for speakers and attendees who register with us.
 
 {{< faqs/qa-question "What is included in a full-conference pass?" >}}
 
