@@ -1,9 +1,9 @@
 +++
-title = "Call for paper"
+title = "Call for proposals"
 date = "2019-07-25"
 +++
 
-#### The Open TestCon call for papers is now open!
+#### The Open TestCon call for proposals is now open!
 
 ##### Submit your proposal on [our website](https://cfp.opentestcon.org)
 

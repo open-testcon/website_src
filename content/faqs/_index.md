@@ -40,13 +40,13 @@ disqus_identifier = ""
 
 <br>
 
-<h3 class="rhTextBold">Paper Submission</h3>
+<h3 class="rhTextBold">Proposal Submission</h3>
 
 ---
 
-{{< faqs/qa-question "Where can I submit my paper for Open TestCon?" >}}
+{{< faqs/qa-question "Where can I submit my proposal for Open TestCon?" >}}
 
-> Use our call for papers [portal](https://cfp.opentestcon.org) to submit your paper
+> Use our call for proposals [portal](https://cfp.opentestcon.org) to submit your proposal
 
 {{< faqs/qa-question "What topic are part of Open TestCon?" >}}
 
@@ -76,9 +76,9 @@ disqus_identifier = ""
 <br>
 > Workshop: Guided workshop, default 60min. With brief opening presentation, then guided step on step hands-on. Required to bring own laptops.
 
-{{< faqs/qa-question "Can I submit more than one paper?" >}}
+{{< faqs/qa-question "Can I submit more than one proposal?" >}}
 
-> You can submit a maximum of two (2) papers.
+> You can submit a maximum of two (2) proposals.
 
 {{< faqs/qa-question "How do I edit my proposal(s)?" >}}
 
