@@ -56,13 +56,13 @@ disqus_identifier = ""
 <br>
 > b. Open Hybrid Cloud
 <br>
-> d. Testing Tools
-<br>
-> f. FOSS Community & Standards
-<br>
 > c. Security & Data Privacy
 <br>
-> g. Miscellaneous
+> d. Testing Tools
+<br>
+> e. FOSS Community & Standards
+<br>
+> f. Miscellaneous
 
 {{< faqs/qa-question "What session types are there at Open TestCon?" >}}
 
