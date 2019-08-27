@@ -39,12 +39,12 @@
 
 <br>
 
-<h3 class="rhTextBold">主题提交</h3>
+<h3 class="rhTextBold">提交演讲议题</h3>
 
 ---
-{{< faqs/qa-question "我可以在哪里为Open TestCon进行投稿？" >}}
+{{< faqs/qa-question "我可以在哪里为Open TestCon提交演讲议题？" >}}
 
-> 使用我们的[投稿页面](https://cfp.opentestcon.org)来提交论文。
+> 使用我们的[演讲提案征集页面](https://cfp.opentestcon.org)来提交演讲议题。
 
 {{< faqs/qa-question "Open TestCon中包含哪些主题？" >}}
 
@@ -78,9 +78,9 @@
 
 > 每人最多可提交2份主题。
 
-{{< faqs/qa-question "如何修改我提交的投稿？" >}}
+{{< faqs/qa-question "如何修改我提交的演讲议题？" >}}
 
-> 提交主题后，在2019年10月31日前您仍然可以对其进行更改。点击页面左侧导航栏上的“我的投稿”按钮。您提交的所有提案都列在那里。要进行更改，请单击任何提案上的“编辑”链接。
+> 提交主题后，在2019年10月31日前您仍然可以对其进行更改。点击页面左侧导航栏上的“我的演讲议题”按钮。您提交的所有议题都列在那里。要进行更改，请单击任何提案上的“编辑”链接。
 
 {{< faqs/qa-question "是否需要和主题一起提交完整的幻灯片？" >}}
 
