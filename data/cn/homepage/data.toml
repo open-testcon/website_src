@@ -5,7 +5,7 @@
   location = "北京， 中国"
   register_open = false
   btn_1 = "现在注册"
-  btn_2 = "提交您的投搞"
+  btn_2 = "提交您的演讲议题"
   cfp_url = "https://cfp.opentestcon.org/"
   register_url = "https://www.bagevent.com/event/5248348"
 
