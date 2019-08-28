@@ -8,6 +8,9 @@
   btn_2 = "提交您的演讲议题"
   cfp_url = "https://cfp.opentestcon.org/"
   register_url = "https://www.bagevent.com/event/5248348"
+  slogan_1 = "请不要犹豫，尽快提交吧"
+  slogan_2 = "将关闭于"
+  slogan_3 = "October 31, 2019"
 
 # 02 section summary ======================
 [summary]
