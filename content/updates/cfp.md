@@ -16,4 +16,6 @@ listen to what others are contributing to quality in IT!**
 
 For more detailed information about Open TestCon, see the [conference website](https://opentestcon.org)
 
+Note: All talks, presentations, and workshops will be in English.
+
 Questions? Contact us {{< other/email >}}
