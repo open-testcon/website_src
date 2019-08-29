@@ -8,8 +8,8 @@
   btn_2 = "提交您的演讲议题"
   cfp_url = "https://cfp.opentestcon.org/"
   register_url = "https://www.bagevent.com/event/5248348"
-  slogan_1 = "PLEASE DON'T WAIT, SOONER THE BETTER!"
-  slogan_2 = "Last date of submission is October 31, 2019"
+  slogan_1 = "快快提交投稿，2020年北京走起！"
+  slogan_2 = "截止日期为2019年10月31日"
 
 # 02 section summary ======================
 [summary]

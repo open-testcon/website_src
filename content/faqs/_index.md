@@ -92,6 +92,10 @@ disqus_identifier = ""
 
 > Yes, you can have multiple speakers for your proposal (two speakers maximum, including the primary speaker).
 
+{{< faqs/qa-question "How is the review committee composed?" >}}
+
+> The review committee is made up of senior engineers from Red Hat.
+
 <br>
 
 <h3 class="rhTextBold">Registration</h3>
