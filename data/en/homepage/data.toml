@@ -88,8 +88,8 @@ or Hybrid applications that span across on-premise and multi-cloud.
 # 03 section video ======================
 [video]
 
-  intro = "Watch the best moments"
-  url = "/video/01.mp4"
+  intro = "Listen to what people say"
+  url = "/video/01.m4v"
 
 # 04 section speakers ======================
 [speaker]

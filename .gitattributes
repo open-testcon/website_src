@@ -1,0 +1,2 @@
+static/video/01.m4v filter=lfs diff=lfs merge=lfs -text
+static/video/02.m4v filter=lfs diff=lfs merge=lfs -text

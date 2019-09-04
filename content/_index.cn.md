@@ -6,11 +6,11 @@
 
 {{< homepage/02-summary >}}
 
-<!-- {{< homepage/03-video "/video/01.mp4" >}} -->
-
 <!-- {{< homepage/06-ticket >}} -->
 
 {{< homepage/05-subscribe >}}
+
+{{< homepage/03-video >}}
 
 <!-- {{< homepage/04-speaker >}} -->
 
