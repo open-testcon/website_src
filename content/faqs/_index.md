@@ -34,6 +34,10 @@ disqus_identifier = ""
 
 > Send an email stating that you need to obtain a visa invitation letter to {{< other/email >}}
 
+{{< faqs/qa-question "Which language will be used in this event" >}}
+
+> All talks, presentations, and workshops will be in English.
+
 {{< faqs/qa-question "Additional questions?" >}}
 
 > If you have more questions that are not covered in this FAQ, contact us via email at {{< other/email >}}
@@ -98,7 +102,7 @@ disqus_identifier = ""
 
 <br>
 
-<h3 class="rhTextBold">Registration</h3>
+<h3 class="rhTextBold">Registration and pricing</h3>
 
 ---
 
@@ -109,6 +113,10 @@ disqus_identifier = ""
 {{< faqs/qa-question "How do I register?" >}}
 
 > Register at the [Open TestCon website](https://opentestcon.org/).
+
+{{< faqs/qa-question "How much is registration for Open TestCon?" >}}
+
+> Open TestCon is free for speakers and attendees who register with us.
 
 {{< faqs/qa-question "What is included in a full-conference pass?" >}}
 
