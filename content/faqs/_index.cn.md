@@ -33,6 +33,10 @@
 
 > 说明您需要获得签证邀请函，发送电子邮件到 {{< other/email >}}
 
+{{< faqs/qa-question "本次活动将会以那种语言进行？" >}}
+
+> 活动的演讲语言和幻灯片内容都仅限使用英语。
+
 {{< faqs/qa-question "其他的问题？" >}}
 
 > 如果您有其他这里未列出的问题，您可以通过电子邮件与我们联系 {{< other/email >}}
@@ -96,7 +100,7 @@
 
 <br>
 
-<h3 class="rhTextBold">注册</h3>
+<h3 class="rhTextBold">注册和价格</h3>
 
 ---
 
@@ -107,6 +111,10 @@
 {{< faqs/qa-question "怎样注册？" >}}
 
 > 请到我们的网站注册 [Open TestCon网站](https://opentestcon.org/)
+
+{{< faqs/qa-question "Open TestCon的注册费用是多少？" >}}
+
+> Open TestCon对于注册的演讲者和与会者是免费的。
 
 {{< faqs/qa-question "完整的会议通行证包含哪些内容？" >}}
 
