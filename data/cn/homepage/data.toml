@@ -114,6 +114,11 @@ Open TestCon是由Red Hat举办的软件测试技术大会。本次大会聚焦�
   url = "https://mp.weixin.qq.com/s/7YBC0gpkK4H3XroJ4rkmrw"
   icon = "fab fa-weixin"
 
+[[subs]]
+  name = "Linkedin"
+  url = "https://www.linkedin.com/in/open-testcon-b93512192/"
+  icon = "fab fa-linkedin"
+
 [ticket]
   register_open = false
   name = "现在注册"

@@ -135,6 +135,11 @@ or Hybrid applications that span across on-premise and multi-cloud.
   url = "https://www.facebook.com/opentestcon"
   icon = "fab fa-facebook"
 
+[[subs]]
+  name = "Linkedin"
+  url = "https://www.linkedin.com/in/open-testcon-b93512192/"
+  icon = "fab fa-linkedin"
+
 # 06 section ticket ======================
 [ticket]
   register_open = false
