@@ -36,7 +36,7 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "Which language will be used in this event" >}}
 
-> All talks, presentations, and workshops will be in English.
+> We accept talks, presentations, and workshops both in English and Chinese.
 
 {{< faqs/qa-question "Additional questions?" >}}
 
