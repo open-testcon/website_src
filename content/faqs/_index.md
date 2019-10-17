@@ -100,6 +100,10 @@ disqus_identifier = ""
 
 > The review committee is made up of senior engineers from Red Hat.
 
+{{< faqs/qa-question "How can I proceed if I can't log in to the CFP portal?" >}}
+
+> If you encounter any login issues, please submit your proposals via email to {{< other/email >}} by following [this guide](https://opentestcon.org/updates/cfp-alt/).
+
 <br>
 
 <h3 class="rhTextBold">Registration and pricing</h3>

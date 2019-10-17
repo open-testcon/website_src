@@ -98,6 +98,10 @@
 
 > 审稿委员会是由来自红帽的资深工程师组成的。
 
+{{< faqs/qa-question "如果我无法登录演讲议题征集工具，我该如何完成议题提交？" >}}
+
+> 如果您遇到任何登录问题，请参考[这篇指南](https://opentestcon.org/updates/cfp-alt/)将您的演讲议题提交到我们的邮箱{{< other/email >}}。
+
 <br>
 
 <h3 class="rhTextBold">注册和价格</h3>
