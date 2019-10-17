@@ -31,3 +31,5 @@ Here is our Call for proposals portal CFP [submission form](/doc/cfp2020.pdf) in
 **NOTE:** By submitting the proposal by mail, you automatically accepts the **CFP Policies** (listed in the submission form above).
 
 Thanks for your interest. Please feel free to reach out to us in case of any queries.
+
+##### The CFP deadline is October 31st, 2019
