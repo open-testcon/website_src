@@ -3,7 +3,7 @@ title = "Call for proposals extended for a week"
 date = "2019-10-31"
 +++
 
-#### Till 10th November, 20
+#### Till 10th November, 2019
 
 <!--more-->
 
