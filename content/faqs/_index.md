@@ -86,7 +86,7 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "How do I edit my proposal(s)?" >}}
 
-> Once you have submitted your proposal(s), you can still make changes to it until October 31, 2019. Click the “My proposals” button on the navbar on the left side of the page. All the proposal(s) that you submitted are listed there. To make changes, click the “Edit” link on any proposal(s).
+> Once you have submitted your proposal(s), you can still make changes to it until November 10, 2019. Click the “My proposals” button on the navbar on the left side of the page. All the proposal(s) that you submitted are listed there. To make changes, click the “Edit” link on any proposal(s).
 
 {{< faqs/qa-question "Do I need to submit complete slides with the CFP?" >}}
 
