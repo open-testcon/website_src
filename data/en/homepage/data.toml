@@ -8,8 +8,9 @@
   btn_2 = "SUBMIT PROPOSAL"
   cfp_url = "https://cfp.opentestcon.org/"
   register_url = "https://www.bagevent.com/event/5316168"
-  slogan_1 = "PLEASE DON'T WAIT, THE SOONER THE BETTER!"
-  slogan_2 = "Last date of submission is November 10, 2019"
+  slogan_1 = " Thanks for great response. We got a substantial amount of proposals, a total of 265 submissions"
+  slogan_2 = "Call for proposals is CLOSED!"
+  slogan_3 = "Registration opening will be announced soon, stay tuned with us"
 
 # 02 section summary ======================
 [summary]

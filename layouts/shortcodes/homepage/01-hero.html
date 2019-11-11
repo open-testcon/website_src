@@ -5,14 +5,20 @@
     <div class="container">
       {{/*  for pc  */}}
       <div class="row center hide-on-med-and-down" style="margin-top: 150px;">
-        <img src="/img/logos/qecamp_logo_03.png" class="responsive-img">
+        <img src="/img/logos/qecamp_logo_03.png" class="responsive-img" />
       </div>
 
       <div class="row center hide-on-med-and-down">
-        <h1 style="text-shadow: 5px 5px 15px black;margin-bottom: 30px" class="rhDisplayBlack">
+        <h1
+          style="text-shadow: 5px 5px 15px black;margin-bottom: 30px"
+          class="rhDisplayBlack"
+        >
           {{ .start_date }}
         </h1>
-        <h4 style="text-shadow: 5px 5px 15px black; margin-bottom: 50px" class="rhDisplayBold">
+        <h4
+          style="text-shadow: 5px 5px 15px black; margin-bottom: 50px"
+          class="rhDisplayBold"
+        >
           {{ .location }}
         </h4>
       </div>
@@ -20,72 +26,116 @@
       {{/*  for mobile  */}}
       <div class="row center hide-on-large-only">
         <div class="col s12">
-          <h3 style="text-shadow: 5px 5px 15px black;margin-bottom: 20px" class="rhDisplayBold">
+          <h3
+            style="text-shadow: 5px 5px 15px black;margin-bottom: 20px"
+            class="rhDisplayBold"
+          >
             {{ .name }}
           </h3>
 
-          <h5 style="text-shadow: 5px 5px 15px black;margin-bottom: 20px" class="rhDisplayBlack">
+          <h5
+            style="text-shadow: 5px 5px 15px black;margin-bottom: 20px"
+            class="rhDisplayBlack"
+          >
             {{ .start_date }}
           </h5>
 
-          <h6 style="text-shadow: 5px 5px 15px black; margin-bottom: 10px" class="rhDisplayBold">
+          <h6
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
             {{ .location }}
           </h6>
         </div>
       </div>
 
-
       {{/*  for pc  */}}
       <div class="hide-on-med-and-down">
-
         <div class="row center">
-          <a href="{{ .cfp_url }}" id="download-button"
-            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold" target="_blank">
+          <a
+            href=""
+            id="download-button"
+            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold disabled"
+            target="_blank"
+          >
             <i class="material-icons left">mic</i>
             {{ .btn_2 }}
           </a>
 
-          <h4 style="text-shadow: 5px 5px 15px black; margin-bottom: 10px" class="rhDisplayBold">
-            {{ .slogan_2 }} {{ .slogan_3 }}
+          <h4
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
+            {{ .slogan_2 }}
           </h4>
-          <h4 style="text-shadow: 5px 5px 15px black; margin-bottom: 10px" class="rhDisplayBold">
-            {{ .slogan_1 | upper }}
-          </h4>
+          <h5
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
+            {{ .slogan_1 }}
+          </h5>
+          <h5
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
+            {{ .slogan_3 }}
+          </h5>
         </div>
 
         {{ if .register_open }}
         <div class="row center">
-          <a href="{{ .register_url }}" target="_blank"
-            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
+          <a
+            href="{{ .register_url }}"
+            target="_blank"
+            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold"
+          >
             <i class="fas fa-sign-in-alt" style="margin-right: 10px"></i>
             {{ .btn_1 }}
           </a>
         </div>
         {{ end }}
-
       </div>
 
       {{/*  for mobile  */}}
       <div class="hide-on-large-only">
         <div class="row center">
-          <a href="{{ .cfp_url }}" target="_blank"
-            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
+          <a
+            href=""
+            target="_blank"
+            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold"
+            disabled
+          >
             <i class="material-icons left">mic</i>
             {{ .btn_2 }}
           </a>
 
-          <h5 style="text-shadow: 5px 5px 15px black; margin-bottom: 10px" class="rhDisplayBold">
-            {{ .slogan_2 }} {{ .slogan_3 }}
-          </h5>
-          <h5 style="text-shadow: 5px 5px 15px black; margin-bottom: 10px" class="rhDisplayBold">
-            {{ .slogan_1 | upper }}
-          </h5>
+          <h6
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
+            {{ .slogan_2 }}
+          </h6>
+          <h6
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
+            {{ .slogan_1 }}
+          </h6>
+          <h6
+            style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
+            class="rhDisplayBold"
+          >
+            {{ .slogan_3 }}
+          </h6>
         </div>
 
         {{ if .register_open }}
         <div class="row center">
-          <a href="{{ .register_url }}" target="_blank"
-            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold">
+          <a
+            href="{{ .register_url }}"
+            target="_blank"
+            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold"
+          >
             <i class="fas fa-sign-in-alt" style="margin-right: 10px"></i>
             {{ .btn_1 }}
           </a>
@@ -98,6 +148,6 @@
       </div>
     </div>
   </div>
-  <div class="parallax"><img src="/img/background/bg05.jpg"></div>
+  <div class="parallax"><img src="/img/background/bg05.jpg" /></div>
 </div>
 {{ end }}
