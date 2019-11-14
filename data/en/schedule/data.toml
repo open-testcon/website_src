@@ -1,4 +1,5 @@
 [schedule]
+  name = "Schedule list will be announced soon"
 
   released = false
   released_date = "2020-01-30T00:12:12+08:00"
