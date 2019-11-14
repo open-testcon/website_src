@@ -2,15 +2,15 @@
 [meeting]
   name = "Open TestCon"
   start_date = "三月 30-31, 2020"
-  location = "北京， 中国"
-  register_open = false
+  location = "亮马河会议中心，北京， 中国"
+  register_open = true
   btn_1 = "现在注册"
   btn_2 = "提交您的演讲议题"
   cfp_url = "https://cfp.opentestcon.org/"
-  register_url = "https://www.bagevent.com/event/5248348"
-  slogan_1 = "感谢您的积极参与。我们收到了大量反馈，共265个演讲议题"
-  slogan_2 = "提交议题已经结束，感谢您的关注！"
-  slogan_3 = "注册报名即将开放，敬请期待"
+  register_url = "https://www.bagevent.com/event/6158211"
+  slogan_1 = "报名注册已经开放!!!"
+  slogan_2 = "欢迎大家积极踊跃注册参加"
+  slogan_3 = "我们将尽快审核并确认您的注册"
 
 # 02 section summary ======================
 [summary]
@@ -121,28 +121,30 @@ Open TestCon是由Red Hat举办的软件测试技术大会。本次大会聚焦�
   icon = "fab fa-linkedin"
 
 [ticket]
-  register_open = false
+  register_open = true
   name = "现在注册"
   action = "注册"
   action_no = "敬请期待"
   desc_no = "本次活动席位有限，欢迎报名参加"
-  url = "https://www.bagevent.com/event/5248348"
+  url = "https://www.bagevent.com/event/6158211"
 
   [[ticket.tickets]]
-    price = "0 ￥"
-    desc = "共 300"
-    status = "还剩 300"
-    url = "https://www.bagevent.com/event/5248348"
+    price = "0 $"
+    desc = "将由主办方审核"
+    status = "普通票 "
+    url = "https://www.bagevent.com/event/6158211"
 
-  # [[ticket.tickets]]
-  #   price = "500 ￥"
-  #   desc = "总共１０００位"
-  #   status = "售罄"
+  [[ticket.tickets]]
+    price = "0 $"
+    desc = "仅限邀请"
+    status = "贵宾注册"
+    url = "https://www.bagevent.com/event/6158211"
 
-  # [[ticket.tickets]]
-  #   price = "800 ￥"
-  #   desc = "总共５０位"
-  #   status = "售罄"
+  [[ticket.tickets]]
+    price = "0 $"
+    desc = "仅限邀请"
+    status = "演讲嘉宾注册"
+    url = "https://www.bagevent.com/event/6158211"
 
 [venue]
 

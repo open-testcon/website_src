@@ -20,21 +20,21 @@
 
   {{ if .register_open }}
   <div class="row container center hide-on-med-and-down">
-    <div class="col l2 offset-l3"></div>
+    <div class="col l2"></div>
     {{ range .tickets }}
-    <div class="col l2">
+    <div class="col l3">
       {{ partial "ticket" . }}
     </div>
     {{ end }}
   </div>
 
-  <div class="row center container hide-on-large-only">
+  <!-- <div class="row center container hide-on-large-only">
     {{ range .tickets }}
     <div class="col s12">
       {{ partial "ticket" . }}
     </div>
     {{ end }}
-  </div>
+  </div> -->
   {{ else }}
   <div class="row container center">
     <h5 class="rhDisplayBold">{{ .desc_no }}</h5>

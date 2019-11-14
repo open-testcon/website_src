@@ -52,27 +52,19 @@
       {{/*  for pc  */}}
       <div class="hide-on-med-and-down">
         <div class="row center">
-          <a
-            href=""
-            id="download-button"
-            class="btn-large waves-effect waves-light red darken-2 z-depth-4 rhTextBold disabled"
-            target="_blank"
-          >
-            <i class="material-icons left">mic</i>
-            {{ .btn_2 }}
-          </a>
+
 
           <h4
             style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
             class="rhDisplayBold"
           >
-            {{ .slogan_2 }}
+            {{ .slogan_1 | upper }}
           </h4>
           <h5
             style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
             class="rhDisplayBold"
           >
-            {{ .slogan_1 }}
+            {{ .slogan_2 }}
           </h5>
           <h5
             style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
@@ -99,27 +91,18 @@
       {{/*  for mobile  */}}
       <div class="hide-on-large-only">
         <div class="row center">
-          <a
-            href=""
-            target="_blank"
-            class="btn waves-effect waves-light red darken-2 z-depth-4 rhTextBold"
-            disabled
-          >
-            <i class="material-icons left">mic</i>
-            {{ .btn_2 }}
-          </a>
 
           <h6
             style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
             class="rhDisplayBold"
           >
-            {{ .slogan_2 }}
+            {{ .slogan_1 }}
           </h6>
           <h6
             style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"
             class="rhDisplayBold"
           >
-            {{ .slogan_1 }}
+            {{ .slogan_2 }}
           </h6>
           <h6
             style="text-shadow: 5px 5px 15px black; margin-bottom: 10px"

@@ -2,15 +2,15 @@
 [meeting]
   name = "Open TestCon"
   start_date = "March 30-31, 2020"
-  location = "Beijing, China"
-  register_open = false
+  location = "Landmark Towers Convention Center, Beijing, China"
+  register_open = true
   btn_1 = "REGISTER NOW"
   btn_2 = "SUBMIT PROPOSAL"
   cfp_url = "https://cfp.opentestcon.org/"
-  register_url = "https://www.bagevent.com/event/5316168"
-  slogan_1 = " Thanks for great response. We got a substantial amount of proposals, a total of 265 submissions"
-  slogan_2 = "Call for proposals is CLOSED!"
-  slogan_3 = "Registration opening will be announced soon, stay tuned with us"
+  register_url = "https://www.bagevent.com/event/6157686"
+  slogan_1 = "Registration is now open!!!"
+  slogan_2 = "Please go ahead and register for event."
+  slogan_3 = "We will review and confirm your registration."
 
 # 02 section summary ======================
 [summary]
@@ -143,18 +143,30 @@ or Hybrid applications that span across on-premise and multi-cloud.
 
 # 06 section ticket ======================
 [ticket]
-  register_open = false
-  name = "REGISTER"
-  action = "NOW"
+  register_open = true
+  name = "Welcome to register"
+  action = "APPLY NOW"
   action_no = "WILL BE OPEN SOON"
-  url = "https://www.bagevent.com/event/5316168"
+  url = "https://www.bagevent.com/event/6157686"
   desc_no = "Welcome to register, limited seats available."
 
   [[ticket.tickets]]
     price = "0 $"
-    desc = "total 300 places"
-    status = "300 left"
-    url = "https://www.bagevent.com/event/5316168"
+    desc = "Audition"
+    status = "General Admission"
+    url = "https://www.bagevent.com/event/6157686"
+
+  [[ticket.tickets]]
+    price = "0 $"
+    desc = "Invition Only"
+    status = "VIP Registration"
+    url = "https://www.bagevent.com/event/6157686"
+
+  [[ticket.tickets]]
+    price = "0 $"
+    desc = "Invition Only"
+    status = "Speaker Registration"
+    url = "https://www.bagevent.com/event/6157686"
 
   # [[ticket.tickets]]
   #   price = "500 ￥"

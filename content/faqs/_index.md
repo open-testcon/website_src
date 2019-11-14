@@ -44,67 +44,7 @@ disqus_identifier = ""
 
 <br>
 
-<h3 class="rhTextBold">Proposal Submission</h3>
 
----
-
-{{< faqs/qa-question "Where can I submit my proposal for Open TestCon?" >}}
-
-> Use our call for proposals [portal](https://cfp.opentestcon.org) to submit your proposal
-
-{{< faqs/qa-question "What topic are part of Open TestCon?" >}}
-
-> Open TestCon has the following topics:
-<br>
-> a. Trending Tech in Testing
-<br>
-> b. Open Hybrid Cloud
-<br>
-> c. Security & Data Privacy
-<br>
-> d. Testing Tools
-<br>
-> e. FOSS Community & Standards
-<br>
-> f. Miscellaneous
-
-{{< faqs/qa-question "What session types are there at Open TestCon?" >}}
-
-> Standard presentations. Talk length includes a 5-minute gap between presentations to give attendees time to move to the next talk.
-<br>
-> - Short presentation: default 30 minutes (20-minute presentation, 5-minute Q&A)
-<br>
-> - Long presentation: 60 minutes (50-minute presentation, 5-minute Q&A)
-<br>
-> Keynote: High-profile talks intended to be of interest to everyone at the conference. Presentations can range from 30-60 minutes.
-<br>
-> Workshop: Guided workshop, default 60min. With brief opening presentation, then guided step on step hands-on. Required to bring own laptops.
-
-{{< faqs/qa-question "Can I submit more than one proposal?" >}}
-
-> You can submit a maximum of two (2) proposals.
-
-{{< faqs/qa-question "How do I edit my proposal(s)?" >}}
-
-> Once you have submitted your proposal(s), you can still make changes to it until November 10, 2019. Click the “My proposals” button on the navbar on the left side of the page. All the proposal(s) that you submitted are listed there. To make changes, click the “Edit” link on any proposal(s).
-
-{{< faqs/qa-question "Do I need to submit complete slides with the CFP?" >}}
-
-> No, proposal submissions do not need to include completed slides.
-
-{{< faqs/qa-question "We have one proposal from multiple speakers, is it allowed?" >}}
-
-> Yes, you can have multiple speakers for your proposal (two speakers maximum, including the primary speaker).
-
-{{< faqs/qa-question "How is the review committee composed?" >}}
-
-> The review committee is made up of senior engineers from Red Hat.
-
-{{< faqs/qa-question "How can I proceed if I can't log in to the CFP portal?" >}}
-
-> If you encounter any login issues, please submit your proposals via email to {{< other/email >}} by following [this guide](https://opentestcon.org/updates/cfp-alt/).
-
-<br>
 
 <h3 class="rhTextBold">Registration and pricing</h3>
 
@@ -112,7 +52,7 @@ disqus_identifier = ""
 
 {{< faqs/qa-question "When does registration open?" >}}
 
-> Registration opens on November 1, 2019.
+> Registration opens on November 15, 2019.
 
 {{< faqs/qa-question "How do I register?" >}}
 
