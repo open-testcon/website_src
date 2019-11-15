@@ -145,41 +145,41 @@ or Hybrid applications that span across on-premise and multi-cloud.
 [ticket]
   register_open = true
   name = "Welcome to register"
-  action = "APPLY NOW"
+  action = "REGISTER NOW"
   action_no = "WILL BE OPEN SOON"
   url = "https://www.bagevent.com/event/6157686"
   desc_no = "Welcome to register, limited seats available."
 
   [[ticket.tickets]]
-    price = "0 $"
     desc = "Audition"
     status = "General Admission"
-    url = "https://www.bagevent.com/event/6157686"
-    clickable = ""
+    url = ""
+    clickable = "disabled"
 
   [[ticket.tickets]]
-    price = "0 $"
-    desc = "Invition Only"
+    desc = "Invitation Only"
     status = "VIP Registration"
     url = ""
     clickable = "disabled"
 
   [[ticket.tickets]]
-    price = "0 $"
-    desc = "Invition Only"
+    desc = "Invitation Only"
     status = "Speaker Registration"
     url = ""
     clickable = "disabled"
 
-  # [[ticket.tickets]]
-  #   price = "500 ￥"
-  #   desc = "total 100 places"
-  #   status = "SOLD OUT"
+  [[ticket.tickets]]
+    desc = "Invitation Only"
+    status = "Exhibitor registration"
+    url = ""
+    clickable = "disabled"
 
-  # [[ticket.tickets]]
-  #   price = "800 ￥"
-  #   desc = "total 50 places"
-  #   status = "SOLD OUT"
+  [[ticket.tickets]]
+    desc = "Invitation Only"
+    status = "Red Hat employee registration"
+    url = ""
+    clickable = "disabled"
+
 
 # 07 section venue ======================
 [venue]

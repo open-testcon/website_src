@@ -5,6 +5,13 @@
 
     <p class="rhTextBold">{{ .desc }}</p>
     {{/*  {{ partial "blank" . }} */}}
-    <a class="waves-effect waves-light btn red darken-2 {{ .clickable }}" href="{{ .url }}" target="_blank">{{ .status }}</a>
+    {{/*  <a class="waves-effect waves-light btn red darken-2 {{ .clickable }}" href="{{ .url }}" target="_blank">{{ .status }}</a>  */}}
+
+    <div class="card-panel white-text text-darken-1 red darken-2">
+      <strong>
+      {{ .status }}
+    </strong>
+    </div>
+
   </div>
 </div>
