@@ -155,18 +155,21 @@ or Hybrid applications that span across on-premise and multi-cloud.
     desc = "Audition"
     status = "General Admission"
     url = "https://www.bagevent.com/event/6157686"
+    clickable = ""
 
   [[ticket.tickets]]
     price = "0 $"
     desc = "Invition Only"
     status = "VIP Registration"
-    url = "https://www.bagevent.com/event/6157686"
+    url = ""
+    clickable = "disabled"
 
   [[ticket.tickets]]
     price = "0 $"
     desc = "Invition Only"
     status = "Speaker Registration"
-    url = "https://www.bagevent.com/event/6157686"
+    url = ""
+    clickable = "disabled"
 
   # [[ticket.tickets]]
   #   price = "500 ￥"

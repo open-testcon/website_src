@@ -133,18 +133,21 @@ Open TestCon是由Red Hat举办的软件测试技术大会。本次大会聚焦�
     desc = "将由主办方审核"
     status = "普通票 "
     url = "https://www.bagevent.com/event/6158211"
+    clickable = ""
 
   [[ticket.tickets]]
     price = "0 $"
     desc = "仅限邀请"
     status = "贵宾注册"
     url = "https://www.bagevent.com/event/6158211"
+    clickable = "disabled"
 
   [[ticket.tickets]]
     price = "0 $"
     desc = "仅限邀请"
     status = "演讲嘉宾注册"
     url = "https://www.bagevent.com/event/6158211"
+    clickable = "disabled"
 
 [venue]
 
