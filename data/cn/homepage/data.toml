@@ -4,13 +4,13 @@
   start_date = "三月 30-31, 2020"
   location = "亮马河会议中心，北京， 中国"
   register_open = true
-  btn_1 = "现在注册"
+  btn_1 = "详情"
   btn_2 = "提交您的演讲议题"
   cfp_url = "https://cfp.opentestcon.org/"
-  register_url = "https://www.bagevent.com/event/6158211"
-  slogan_1 = "报名注册已经开放!!!"
-  slogan_2 = "欢迎大家积极踊跃注册参加"
-  slogan_3 = "我们将尽快审核并确认您的注册"
+  register_url = "/cn/updates/event-cancellation/"
+  slogan_1 = "OPEN TESTCON, BEIJING 2020 活动取消通知"
+  slogan_2 = "请点击下面的按钮获取详情"
+  slogan_3 = ""
 
 # 02 section summary ======================
 [summary]

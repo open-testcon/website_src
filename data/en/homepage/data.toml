@@ -4,13 +4,13 @@
   start_date = "March 30-31, 2020"
   location = "Landmark Towers Convention Center, Beijing, China"
   register_open = true
-  btn_1 = "REGISTER NOW"
+  btn_1 = "details"
   btn_2 = "SUBMIT PROPOSAL"
   cfp_url = "https://cfp.opentestcon.org/"
-  register_url = "https://www.bagevent.com/event/6157686"
-  slogan_1 = "Registration is now open!!!"
-  slogan_2 = "Please go ahead and register for event."
-  slogan_3 = "We will review and confirm your registration."
+  register_url = "/updates/event-cancellation/"
+  slogan_1 = "CANCELLATION OF OPEN TESTCON, BEIJING 2020"
+  slogan_2 = "Please click button down below to get details"
+  slogan_3 = ""
 
 # 02 section summary ======================
 [summary]
